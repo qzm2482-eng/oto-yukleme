@@ -18,12 +18,26 @@ for key, ch in CFG.items():
         for v in d.get("items", []):
             out.append({"time": NOW, "channel": key, "platform": "youtube", "id": v["id"],
                         "title": v["snippet"]["title"], "published": v["snippet"]["publishedAt"], **v["statistics"]})
+    try:
+        from datetime import date
+        ra = requests.get("https://youtubeanalytics.googleapis.com/v2/reports", params={
+            "ids": "channel==MINE", "startDate": "2026-11-01", "endDate": date.today().isoformat(),
+            "metrics": "views,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,likes,shares,subscribersGained",
+            "dimensions": "video", "sort": "-views", "maxResults": 200}, headers={"Authorization": f"Bearer {tok}"}).json()
+        heads = [h["name"] for h in ra.get("columnHeaders", [])]
+        for row in ra.get("rows", []):
+            out.append({"time": NOW, "channel": key, "platform": "youtube_analytics", **dict(zip(heads, row))})
+    except Exception as e:
+        print("yt analytics skipped:", e)
     m = requests.get(f"{G}/{ch['ig_id']}/media", params={"fields": "id,caption,timestamp,like_count,comments_count,media_product_type",
         "limit": 50, "access_token": os.environ[ch["ig_token_secret"]]}).json()
     for p in m.get("data", []):
         out.append({"time": NOW, "channel": key, "platform": "instagram", "id": p["id"],
                     "title": (p.get("caption") or "")[:80], "published": p.get("timestamp"),
-                    "likes": p.get("like_count"), "comments": p.get("comments_count")})
+                    "likes": p.get("like_count"), "comments": p.get("comments_count"),
+                    **{i["name"]: (i.get("values") or [{}])[0].get("value") for i in requests.get(f"{G}/{p['id']}/insights",
+                       params={"metric": "views,reach,saved,shares,total_interactions",
+                               "access_token": os.environ[ch["ig_token_secret"]]}).json().get("data", [])}})
     tokp = os.environ[ch["ig_token_secret"]]
     for r in rows:
         if r.get("channel") != key or not r.get("facebook"):

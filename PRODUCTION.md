@@ -49,7 +49,8 @@ Learning loop: read logs/uploads.jsonl and topics.md; repeat/vary what performs,
 - Strong videos: record what they share. Make similar content on different subjects; if it works, test the pattern 1-2 more times; if it keeps trending, go deeper at that level and carry the lesson to other topics.
 
 ## Per-platform learning
-- logs/stats.jsonl has YouTube (views, likes, comments), Instagram (likes, comments) and Facebook (reel insights) per video.
+- logs/stats.jsonl has YouTube (views, likes, comments + analytics: avg view %, avg duration, watch minutes, shares, subs gained), Instagram (likes, comments, views, reach, saved, shares) and Facebook (reel insights) per video.
+- YouTube token now allows comments (youtube.force-ssl) and IG token allows comment management: you MAY reply to comments in the channel voice and pin a question comment to raise engagement — do it via a GitHub Action script (tokens live only in GitHub secrets).
 - Compare the same video across platforms: it may win on one and fail on another. Tune per platform (title/caption/cover hook text,
   description, hashtags) without touching what already works on the winning platform.
 - Optional per-platform fields in <slot>.json: yt_title, yt_description, ig_caption, fb_description (fallback: title/description).
