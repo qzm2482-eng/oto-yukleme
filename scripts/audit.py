@@ -26,7 +26,13 @@ for key, ch in CFG.items():
     t = os.environ[ch["ig_token_secret"]]
     ig = requests.get(f"{G}/{ch['ig_id']}/media", params={"fields": "id,caption,timestamp,media_product_type", "limit": 100, "access_token": t}).json().get("data", [])
     fb = requests.get(f"{G}/{ch['fb_page_id']}/video_reels", params={"fields": "id,description,created_time", "limit": 100, "access_token": t}).json().get("data", [])
-    res[key] = {"youtube": vids, "instagram": [{"id": m["id"], "caption": (m.get("caption") or "")[:100], "time": m.get("timestamp"), "type": m.get("media_product_type")} for m in ig],
+    fbst = []
+    for line in open("logs/uploads.jsonl"):
+        r = json.loads(line)
+        if r.get("channel") == key and r.get("facebook"):
+            d = requests.get(f"{G}/{r['facebook']}", params={"fields": "status,published,permalink_url,created_time", "access_token": t}).json()
+            fbst.append({"id": r["facebook"], "file": r.get("file"), "info": d})
+    res[key] = {"facebook_status": fbst, "youtube": vids, "instagram": [{"id": m["id"], "caption": (m.get("caption") or "")[:100], "time": m.get("timestamp"), "type": m.get("media_product_type")} for m in ig],
                 "facebook": [{"id": m["id"], "desc": (m.get("description") or "")[:100], "time": m.get("created_time")} for m in fb]}
     print(key, "yt", len(vids), "scheduled", sum(1 for v in vids if v["publishAt"]), "ig", len(ig), "fb", len(fb))
 json.dump(res, open("logs/audit.json", "w"), ensure_ascii=False, indent=1)
