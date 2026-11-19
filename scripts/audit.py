@@ -26,11 +26,18 @@ for key, ch in CFG.items():
     t = os.environ[ch["ig_token_secret"]]
     ig = requests.get(f"{G}/{ch['ig_id']}/media", params={"fields": "id,caption,timestamp,media_product_type", "limit": 100, "access_token": t}).json().get("data", [])
     fb = requests.get(f"{G}/{ch['fb_page_id']}/video_reels", params={"fields": "id,description,created_time", "limit": 100, "access_token": t}).json().get("data", [])
+    pt = requests.get(f"{G}/{ch['fb_page_id']}", params={"fields": "access_token,name", "access_token": t}).json()
+    print(key, "page token:", "ok" if pt.get("access_token") else pt)
+    me = requests.get(f"{G}/me", params={"fields": "id,name", "access_token": t}).json()
+    print(key, "me:", me)
+    t2 = pt.get("access_token", t)
+    fb2 = requests.get(f"{G}/{ch['fb_page_id']}/video_reels", params={"fields": "id,description,created_time,status", "limit": 20, "access_token": t2}).json()
+    print(key, "reels via page token:", json.dumps(fb2)[:600])
     fbst = []
     for line in open("logs/uploads.jsonl"):
         r = json.loads(line)
         if r.get("channel") == key and r.get("facebook"):
-            d = requests.get(f"{G}/{r['facebook']}", params={"fields": "status,published,permalink_url,created_time", "access_token": t}).json()
+            d = requests.get(f"{G}/{r['facebook']}", params={"fields": "status,published,permalink_url,created_time", "access_token": t2}).json()
             fbst.append({"id": r["facebook"], "file": r.get("file"), "info": d})
     res[key] = {"facebook_status": fbst, "youtube": vids, "instagram": [{"id": m["id"], "caption": (m.get("caption") or "")[:100], "time": m.get("timestamp"), "type": m.get("media_product_type")} for m in ig],
                 "facebook": [{"id": m["id"], "desc": (m.get("description") or "")[:100], "time": m.get("created_time")} for m in fb]}
