@@ -30,7 +30,7 @@ def yt_access_token(refresh):
 
 def upload_youtube(ch, path, meta, cover):
     token = yt_access_token(os.environ[ch["yt_token_secret"]])
-    body = {"snippet": {"title": meta["title"][:100], "description": meta.get("description", ""),
+    body = {"snippet": {"title": meta.get("yt_title", meta["title"])[:100], "description": meta.get("yt_description", meta.get("description", "")),
                         "tags": meta.get("tags", []), "categoryId": ch.get("category", "27")},
             "status": {"privacyStatus": "public", "selfDeclaredMadeForKids": False}}
     h = {"Authorization": f"Bearer {token}", "Content-Type": "application/json",
@@ -56,7 +56,7 @@ def upload_youtube(ch, path, meta, cover):
 
 def upload_instagram(ch, path, meta, cover):
     token = os.environ[ch["ig_token_secret"]]
-    caption = meta.get("caption") or f"{meta['title']}\n\n{meta.get('description', '')}".strip()
+    caption = meta.get("ig_caption") or meta.get("caption") or f"{meta['title']}\n\n{meta.get('description', '')}".strip()
     data = {"media_type": "REELS", "video_url": raw(path), "caption": caption,
             "share_to_feed": "true", "access_token": token}
     if cover:
@@ -91,7 +91,7 @@ def upload_facebook(ch, path, meta):
                        headers={"Authorization": f"OAuth {token}", "file_url": raw(path)}, timeout=300)
     if not up.ok:
         raise RuntimeError(f"FB upload: {up.text[:300]}")
-    desc = meta.get("caption") or f"{meta['title']}\n\n{meta.get('description', '')}".strip()
+    desc = meta.get("fb_description") or meta.get("caption") or f"{meta['title']}\n\n{meta.get('description', '')}".strip()
     fin = requests.post(f"{GRAPH}/{page}/video_reels", data={"upload_phase": "finish", "video_id": vid,
                         "video_state": "PUBLISHED", "description": desc, "title": meta["title"][:100],
                         "access_token": token}, timeout=120)

@@ -24,6 +24,16 @@ for key, ch in CFG.items():
         out.append({"time": NOW, "channel": key, "platform": "instagram", "id": p["id"],
                     "title": (p.get("caption") or "")[:80], "published": p.get("timestamp"),
                     "likes": p.get("like_count"), "comments": p.get("comments_count")})
+    tokp = os.environ[ch["ig_token_secret"]]
+    for r in rows:
+        if r.get("channel") != key or not r.get("facebook"):
+            continue
+        vid = r["facebook"]
+        ins = requests.get(f"{G}/{vid}/video_insights", params={"access_token": tokp}).json()
+        mets = {i["name"]: (i.get("values") or [{}])[0].get("value") for i in ins.get("data", [])}
+        info = requests.get(f"{G}/{vid}", params={"fields": "created_time,description", "access_token": tokp}).json()
+        out.append({"time": NOW, "channel": key, "platform": "facebook", "id": vid, "title": r.get("title"),
+                    "published": info.get("created_time"), **{k: v for k, v in mets.items() if not isinstance(v, dict)}})
 os.makedirs("logs", exist_ok=True)
 with open("logs/stats.jsonl", "a") as f:
     for o in out:

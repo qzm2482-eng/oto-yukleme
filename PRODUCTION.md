@@ -45,5 +45,11 @@ Learning loop: read logs/uploads.jsonl and topics.md; repeat/vary what performs,
 - Weak videos: investigate why (topic, title, hook, cover, time slot, voice/audio, length) and write the diagnosis in topics.md.
 - Strong videos: record what they share. Make similar content on different subjects; if it works, test the pattern 1-2 more times; if it keeps trending, go deeper at that level and carry the lesson to other topics.
 
+## Per-platform learning
+- logs/stats.jsonl has YouTube (views, likes, comments), Instagram (likes, comments) and Facebook (reel insights) per video.
+- Compare the same video across platforms: it may win on one and fail on another. Tune per platform (title/caption/cover hook text,
+  description, hashtags) without touching what already works on the winning platform.
+- Optional per-platform fields in <slot>.json: yt_title, yt_description, ig_caption, fb_description (fallback: title/description).
+
 ## What it may NOT change without the owner
 - Style (above), which channels/accounts get posts, deleting anything already published, account/token settings.
