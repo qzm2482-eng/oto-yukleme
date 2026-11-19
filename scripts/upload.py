@@ -128,6 +128,11 @@ def main():
                     meta["_yt_done"] = rec["youtube"]
                     json.dump(meta, open(base + ".json", "w"))
                     print("  YouTube OK:", rec["youtube"])
+                if os.path.exists("META_PAUSED") and not (meta.get("_ig_done") and meta.get("_fb_done")):
+                    print("  Meta paused (META_PAUSED file): IG/FB skipped, item kept")
+                    if rec.get("youtube"):
+                        open(LOG, "a").write(json.dumps(rec, ensure_ascii=False) + "\n")
+                    continue
                 if not meta.get("_ig_done"):
                     rec["instagram"] = upload_instagram(ch, path, meta, cover)
                     meta["_ig_done"] = rec["instagram"]
