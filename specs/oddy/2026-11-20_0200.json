@@ -1,0 +1,175 @@
+{
+ "topic": "Mongolia: more horses than people",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "In one country, horses outnumber people. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "More horses than people?",
+     "size": 70,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "horse",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#E8D3B8"
+    }
+   ]
+  },
+  {
+   "tag": "01 · MONGOLIA",
+   "text": "It's Mongolia. About 4.7 million horses, and only about 3.5 million people.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "mn",
+     "name": "Mongolia",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "4.7 million",
+     "unit": "horses",
+     "y": 0.78,
+     "at": "4.7"
+    }
+   ]
+  },
+  {
+   "tag": "02 · HEAD TO HEAD",
+   "text": "People? 3.5 million. Horses? 4.7 million.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "i:users",
+       "People",
+       3.5
+      ],
+      [
+       "i:horse",
+       "Horses",
+       4.7
+      ]
+     ],
+     "fmt": "{:.1f}",
+     "unit": "M",
+     "y": 0.12,
+     "ats": [
+      "People",
+      "Horses"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "03 · THE WHOLE HERD",
+   "text": "And horses are just a small part. In 2024, Mongolia counted 57.6 million farm animals. That's about 16 for every person.",
+   "items": [
+    {
+     "k": "big",
+     "s": "57.6 million",
+     "unit": "farm animals (2024)",
+     "y": 0.12,
+     "at": "57.6"
+    },
+    {
+     "k": "icon",
+     "name": "horse",
+     "size": 220,
+     "y": 0.62,
+     "accent": "#E8D3B8"
+    },
+    {
+     "k": "text",
+     "s": "= about 16 per person",
+     "size": 64,
+     "y": 0.95,
+     "color": "terra",
+     "at": "16"
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "At the Naadam festival, horse races can run more than 20 kilometers, and the jockeys are children.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "trophy",
+     "size": 200,
+     "y": 0.0,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "big",
+     "s": "20+ km",
+     "unit": "horse races at Naadam",
+     "y": 0.45,
+     "at": "20"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "In Mongolia, the horse isn't a hobby. It's a way of life.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "horse",
+     "size": 300,
+     "y": 0.25,
+     "accent": "#E8D3B8"
+    },
+    {
+     "k": "text",
+     "s": "Horses = a way of life",
+     "size": 62,
+     "y": 0.85
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "kz",
+      "is",
+      "ar",
+      "us"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

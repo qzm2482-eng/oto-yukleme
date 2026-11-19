@@ -1,0 +1,186 @@
+{
+ "topic": "Sweden: most islands",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "Which country has the most islands on Earth? It's not Indonesia or the Philippines. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "The most islands on Earth?",
+     "size": 70,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "beach",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#F2D9A0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · SWEDEN",
+   "text": "It's Sweden, with 267,570 islands.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "se",
+     "name": "Sweden",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "267,570",
+     "unit": "islands",
+     "y": 0.78,
+     "at": "267,570"
+    }
+   ]
+  },
+  {
+   "tag": "02 · BUT",
+   "text": "But only 984 of them have people living on them. That's under half a percent.",
+   "items": [
+    {
+     "k": "big",
+     "s": "984",
+     "unit": "inhabited islands",
+     "y": 0.12,
+     "at": "984"
+    },
+    {
+     "k": "icon",
+     "name": "home",
+     "size": 300,
+     "y": 0.75,
+     "accent": "#F2D9A0"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "Japan has about 14,000. Canada, 52,000. Finland, 179,000. Norway, 239,000. And Sweden, 267,570.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "jp",
+       "Japan",
+       14125
+      ],
+      [
+       "ca",
+       "Canada",
+       52455
+      ],
+      [
+       "fi",
+       "Finland",
+       178947
+      ],
+      [
+       "no",
+       "Norway",
+       239057
+      ],
+      [
+       "se",
+       "Sweden",
+       267570
+      ]
+     ],
+     "fmt": "{:,.0f}",
+     "unit": "",
+     "y": 0.12,
+     "ats": [
+      "Japan",
+      "Canada",
+      "Finland",
+      "Norway",
+      "Sweden"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "Visit one island every day, and it would take you over 730 years.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "calendar",
+     "size": 200,
+     "y": 0.0,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "big",
+     "s": "730 years",
+     "unit": "one island a day",
+     "y": 0.45,
+     "at": "730"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "Countries count islands differently, but on official numbers, Sweden wins.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "trophy",
+     "size": 300,
+     "y": 0.25,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "text",
+     "s": "Sweden = island champion",
+     "size": 62,
+     "y": 0.85,
+     "at": "Sweden"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "no",
+      "fi",
+      "id",
+      "ph"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

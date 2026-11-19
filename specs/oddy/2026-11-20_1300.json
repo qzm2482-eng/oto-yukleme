@@ -1,0 +1,178 @@
+{
+ "topic": "REMAKE: USA toilet paper per person",
+ "platforms": [
+  "instagram",
+  "facebook"
+ ],
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "One country uses more toilet paper per person than anyone else. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "Who uses the most toilet paper?",
+     "size": 70,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "toilet-paper",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#CFE3E0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · USA",
+   "text": "It's the United States. About 141 rolls per person, every year.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "us",
+     "name": "United States",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "141 rolls",
+     "unit": "per person, per year",
+     "y": 0.78,
+     "at": "141"
+    }
+   ]
+  },
+  {
+   "tag": "02 · PER PERSON",
+   "text": "That's almost three rolls every single week, for every person.",
+   "items": [
+    {
+     "k": "big",
+     "s": "2.7 rolls",
+     "unit": "every week",
+     "y": 0.12,
+     "at": "three"
+    },
+    {
+     "k": "icon",
+     "name": "toilet-paper",
+     "size": 300,
+     "y": 0.75,
+     "accent": "#CFE3E0"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "The UK uses about 127 rolls. Germany, 134. And the USA, 141.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "gb",
+       "UK",
+       127
+      ],
+      [
+       "de",
+       "Germany",
+       134
+      ],
+      [
+       "us",
+       "USA",
+       141
+      ]
+     ],
+     "fmt": "{:.0f}",
+     "unit": "",
+     "y": 0.12,
+     "ats": [
+      "UK",
+      "Germany",
+      "USA"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "Multiply that by 340 million Americans, and it's over 47 billion rolls a year.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "toilet-paper",
+     "size": 200,
+     "y": 0.0,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "big",
+     "s": "47 billion",
+     "unit": "rolls a year",
+     "y": 0.45,
+     "at": "47"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "Why so much? Softer, thicker paper, and very few bidets.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "droplet",
+     "size": 300,
+     "y": 0.25,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "text",
+     "s": "Soft paper + few bidets",
+     "size": 62,
+     "y": 0.85,
+     "at": "bidets"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "jp",
+      "fr",
+      "it",
+      "mx"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

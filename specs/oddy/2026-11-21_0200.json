@@ -1,0 +1,188 @@
+{
+ "topic": "South Africa: three capitals",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "One country has not one, not two, but three capital cities. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "Three capital cities?",
+     "size": 70,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "building-bank",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#F2D9A0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · SOUTH AFRICA",
+   "text": "It's South Africa. And each of its capitals has its own job.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "za",
+     "name": "South Africa",
+     "y": 0.2,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "3 capitals",
+     "y": 0.85
+    }
+   ]
+  },
+  {
+   "tag": "02 · WHO DOES WHAT",
+   "text": "Pretoria runs the government. Cape Town hosts parliament. Bloemfontein is home to the Supreme Court of Appeal.",
+   "items": [
+    {
+     "k": "text",
+     "s": "Pretoria = government",
+     "size": 64,
+     "y": 0.1,
+     "color": "teal",
+     "at": "Pretoria"
+    },
+    {
+     "k": "text",
+     "s": "Cape Town = parliament",
+     "size": 64,
+     "y": 0.45,
+     "color": "terra",
+     "at": "Cape"
+    },
+    {
+     "k": "text",
+     "s": "Bloemfontein = top appeal court",
+     "size": 64,
+     "y": 0.8,
+     "color": "ink",
+     "at": "Bloemfontein"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "The Netherlands, Bolivia and Malaysia split their capital between two cities. South Africa uses three.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "nl",
+       "Netherlands",
+       2
+      ],
+      [
+       "bo",
+       "Bolivia",
+       2
+      ],
+      [
+       "my",
+       "Malaysia",
+       2
+      ],
+      [
+       "za",
+       "South Africa",
+       3
+      ]
+     ],
+     "fmt": "{:.0f}",
+     "unit": "",
+     "y": 0.12,
+     "ats": [
+      "Netherlands",
+      "Bolivia",
+      "Malaysia",
+      "South"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "Cape Town and Pretoria are about 1,300 kilometers apart, so ministers often fly back and forth.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "plane",
+     "size": 200,
+     "y": 0.0,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "big",
+     "s": "1,300 km",
+     "unit": "between two capitals",
+     "y": 0.45,
+     "at": "1,300"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "It's a deal from 1910, when four colonies joined into one country.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "building-bank",
+     "size": 300,
+     "y": 0.25,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "text",
+     "s": "A 1910 compromise",
+     "size": 62,
+     "y": 0.85,
+     "at": "1910"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "bo",
+      "nl",
+      "my",
+      "ng"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

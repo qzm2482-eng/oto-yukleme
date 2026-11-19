@@ -1,0 +1,160 @@
+{
+ "topic": "Egyptian embalmer (mummification)",
+ "title_card": "ANCIENT EGYPT",
+ "beats": [
+  {
+   "text": "Ancient Egypt. A pharaoh just died, and you have 70 days to turn him into a mummy.",
+   "keys": [
+    "Egypt",
+    "70",
+    "mummy"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "aic:93270aaf-16a5-1604-c6c8-0f3c003eb7a1",
+    "focus": [
+     0.5,
+     0.12
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "focus2": [
+     0.5,
+     0.2
+    ]
+   }
+  },
+  {
+   "text": "Step one: the brain. You pull it out through his nose, with a long metal hook.",
+   "keys": [
+    "brain",
+    "nose",
+    "hook"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "STEP 1: THE BRAIN",
+    "icons": [
+     "skull",
+     "question-mark"
+    ],
+    "bg": "#7a2e2e",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Egyptians thought the heart held the mind, so the heart stays in.",
+   "keys": [
+    "heart",
+    "stays"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "aic:248905ef-d485-73a2-d29b-49c3a76c36bb",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Step two: a cut in his left side. The organs go into four canopic jars.",
+   "keys": [
+    "left",
+    "four",
+    "canopic"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "aic:e9fca0e0-88dc-4f68-2f0c-2c123bed77fe",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Step three: you cover the body in natron salt for about 40 days, until it's bone dry.",
+   "keys": [
+    "natron",
+    "40"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "determined",
+    "label": "40 DAYS IN SALT",
+    "icons": [
+     "hourglass",
+     "sun"
+    ],
+    "bg": "#8a6b2f",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Then hundreds of meters of linen, wrapped layer by layer, with amulets in between.",
+   "keys": [
+    "linen",
+    "amulets"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "aic:bf78b813-d82f-197f-a7f0-d83b6adfd736",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.2
+    ],
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Get it wrong, and the king can't reach the afterlife. And it's your fault.",
+   "keys": [
+    "afterlife",
+    "fault"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "aic:18cd0669-70d2-1715-3858-a432657cb577",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

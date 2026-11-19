@@ -1,0 +1,158 @@
+{
+ "topic": "Tosher in London's sewers, 1850",
+ "title_card": "LONDON · 1850",
+ "beats": [
+  {
+   "text": "London, 1850. You climb down into the sewers, to hunt for lost coins.",
+   "keys": [
+    "London",
+    "1850",
+    "sewers",
+    "coins"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Gustave Doré - Wentworth Street Whitechapel - London, a Pilgrimage.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "focus2": [
+     0.5,
+     0.55
+    ]
+   }
+  },
+  {
+   "text": "You're a tosher. Anything that falls through a drain can be treasure.",
+   "keys": [
+    "tosher",
+    "treasure"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "determined",
+    "label": "TOSHER",
+    "icons": [
+     "coin",
+     "bucket"
+    ],
+    "bg": "#3a4a2f",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Coins, spoons, bits of copper and iron. On a good day you earn more than most workers above you.",
+   "keys": [
+    "Coins",
+    "copper",
+    "more"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "happy",
+    "label": "LOST COINS",
+    "icons": [
+     "coins",
+     "coin"
+    ],
+    "bg": "#2f6b5a",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "But it's illegal without permission, so you go down in secret, with a lantern and a long pole.",
+   "keys": [
+    "illegal",
+    "secret",
+    "lantern"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:YCBA London a Pilgrimage 06.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Danger one: the tide. When the Thames rises, the tunnels can flood fast.",
+   "keys": [
+    "tide",
+    "Thames",
+    "flood"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Illustrated London News - print; coloured engraving- Panorama of London and the River Thames - Google Art Project.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.2,
+     1.35
+    ],
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Danger two: foul air. It can knock you out, or even catch fire near your lantern.",
+   "keys": [
+    "foul",
+    "fire"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "FOUL AIR",
+    "icons": [
+     "flame",
+     "skull"
+    ],
+    "bg": "#5a5a22",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Danger three: getting lost. Some toshers went down and never came back up.",
+   "keys": [
+    "lost",
+    "never"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "DON'T GET LOST",
+    "icons": [
+     "map",
+     "question-mark"
+    ],
+    "bg": "#2b3a6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "topic": "Finland: more saunas than cars",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "One country has more saunas than cars on the road. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "More saunas than cars?",
+     "size": 70,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "car",
+     "size": 170,
+     "x": 0.28,
+     "y": 0.95
+    },
+    {
+     "k": "icon",
+     "name": "flame",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#F2B8A0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · FINLAND",
+   "text": "It's Finland. About 3.3 million saunas, for just 5.6 million people.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "fi",
+     "name": "Finland",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "3.3 million",
+     "unit": "saunas",
+     "y": 0.75,
+     "at": "3.3"
+    }
+   ]
+  },
+  {
+   "tag": "02 · PER PERSON",
+   "text": "That's about one sauna for every two people. Even the Finnish parliament has its own sauna.",
+   "items": [
+    {
+     "k": "big",
+     "s": "1 per 2",
+     "unit": "people",
+     "y": 0.12
+    },
+    {
+     "k": "icon",
+     "name": "building-bank",
+     "size": 300,
+     "y": 0.72,
+     "accent": "#CFE3E0",
+     "at": "parliament"
+    }
+   ]
+  },
+  {
+   "tag": "03 · HEAD TO HEAD",
+   "text": "Cars in traffic? About 2.7 million. Saunas? 3.3 million.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "i:car",
+       "Cars",
+       2.7
+      ],
+      [
+       "i:flame",
+       "Saunas",
+       3.3
+      ]
+     ],
+     "fmt": "{:.1f}",
+     "unit": "M",
+     "y": 0.25,
+     "ats": [
+      "Cars",
+      "Saunas"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "Put every sauna in a row, two meters each, and the line would stretch 6,600 kilometers. That's almost Helsinki to New York.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "flame",
+     "size": 200,
+     "y": 0.0,
+     "accent": "#F2B8A0"
+    },
+    {
+     "k": "big",
+     "s": "6,600 km",
+     "unit": "of saunas",
+     "y": 0.45,
+     "at": "6,600"
+    },
+    {
+     "k": "flags",
+     "ccs": [
+      "fi",
+      "us"
+     ],
+     "y": 0.92,
+     "w": 170,
+     "at": "Helsinki"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "UNESCO even lists Finnish sauna culture as world heritage.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "flame",
+     "size": 300,
+     "y": 0.25,
+     "accent": "#F2B8A0"
+    },
+    {
+     "k": "text",
+     "s": "Sauna = part of who Finns are",
+     "size": 62,
+     "y": 0.85,
+     "at": "UNESCO"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "se",
+      "jp",
+      "br",
+      "tr"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

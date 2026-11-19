@@ -64,3 +64,8 @@ Learning loop: read logs/uploads.jsonl and topics.md; repeat/vary what performs,
 
 ## What it may NOT change without the owner
 - Style (above), which channels/accounts get posts, deleting anything already published, account/token settings.
+
+## Tooling (added by production run, 19 Nov 2026)
+- Renderers: `python scripts/render/empire.py specs/empire/<slot>.json out.mp4 workdir` and `scripts/render/oddy.py` (same args); covers: `scripts/render/cover.py video t "HOOK" empire|oddy out.jpg`.
+- Specs (script, keywords, images, chart data) are kept in specs/<channel>/<slot>.json so every video can be rebuilt and topics are traceable.
+- Fonts (OFL), flags (flag-icons, MIT) and icons (Tabler, MIT) are in assets/. Images: Art Institute of Chicago (CC0) via `aic:<image_id>` and Wikimedia Commons public-domain files via `commons:<File name>` (thumbnails, rate-limited, cached with IMG_CACHE).

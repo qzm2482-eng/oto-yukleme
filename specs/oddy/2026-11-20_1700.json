@@ -1,0 +1,168 @@
+{
+ "topic": "Canada: more lakes than the rest of the world",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "One country has more lakes than the rest of the world combined. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "More lakes than the whole world?",
+     "size": 70,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "ripple",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#CFE3E0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · CANADA",
+   "text": "It's Canada. Scientists mapped about 1.4 million lakes on Earth bigger than ten hectares. Canada has nearly 900,000 of them.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "ca",
+     "name": "Canada",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "~900,000",
+     "unit": "big lakes",
+     "y": 0.78,
+     "at": "900,000"
+    }
+   ]
+  },
+  {
+   "tag": "02 · SHARE",
+   "text": "That's about 62 percent of all the big lakes on the planet.",
+   "items": [
+    {
+     "k": "big",
+     "s": "62%",
+     "unit": "of the world's big lakes",
+     "y": 0.12,
+     "at": "62"
+    },
+    {
+     "k": "icon",
+     "name": "ripple",
+     "size": 300,
+     "y": 0.75,
+     "accent": "#CFE3E0"
+    }
+   ]
+  },
+  {
+   "tag": "03 · HEAD TO HEAD",
+   "text": "The whole rest of the world? About 0.5 million. Canada alone? Almost 0.9 million.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "i:world",
+       "Rest of world",
+       0.54
+      ],
+      [
+       "ca",
+       "Canada",
+       0.88
+      ]
+     ],
+     "fmt": "{:.1f}",
+     "unit": "M",
+     "y": 0.12,
+     "ats": [
+      "rest",
+      "Canada"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "Why? In the Ice Age, giant glaciers scraped the land and left countless holes that filled with water.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "mountain",
+     "size": 200,
+     "y": 0.0,
+     "accent": "#E3EDF2"
+    },
+    {
+     "k": "big",
+     "s": "Ice Age",
+     "unit": "glaciers dug the holes",
+     "y": 0.45,
+     "at": "Ice"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "Visit one Canadian lake a day, and you'd need over 2,400 years.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "calendar",
+     "size": 300,
+     "y": 0.25,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "text",
+     "s": "2,400 years of lakes",
+     "size": 62,
+     "y": 0.85,
+     "at": "2,400"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "fi",
+      "ru",
+      "us",
+      "se"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

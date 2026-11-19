@@ -1,0 +1,180 @@
+{
+ "topic": "Denmark: more pigs than people",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "One rich European country has twice as many pigs as people. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "Twice as many pigs as people?",
+     "size": 70,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "pig",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#F5C6C9"
+    }
+   ]
+  },
+  {
+   "tag": "01 · DENMARK",
+   "text": "It's Denmark. Almost 12 million pigs, and only about 6 million people.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "dk",
+     "name": "Denmark",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "11.9 million",
+     "unit": "pigs",
+     "y": 0.78,
+     "at": "12"
+    }
+   ]
+  },
+  {
+   "tag": "02 · PER PERSON",
+   "text": "That's about two pigs for every Dane, and most of the pork is sold abroad.",
+   "items": [
+    {
+     "k": "big",
+     "s": "2 per person",
+     "unit": "pigs per Dane",
+     "y": 0.12
+    },
+    {
+     "k": "icon",
+     "name": "pig",
+     "size": 300,
+     "y": 0.75,
+     "accent": "#F5C6C9",
+     "at": "pork"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "Pigs per person. China, 0.3. The Netherlands, 0.6. Spain, 0.7. And Denmark? Two.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "cn",
+       "China",
+       0.3
+      ],
+      [
+       "nl",
+       "Netherlands",
+       0.6
+      ],
+      [
+       "es",
+       "Spain",
+       0.7
+      ],
+      [
+       "dk",
+       "Denmark",
+       2.0
+      ]
+     ],
+     "fmt": "{:.1f}",
+     "unit": "",
+     "y": 0.12,
+     "ats": [
+      "China",
+      "Netherlands",
+      "Spain",
+      "Denmark"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "Line up every Danish pig nose to tail, and the line would stretch over 14,000 kilometers. That's a third of the way around the Earth.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "world",
+     "size": 200,
+     "y": 0.0,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "big",
+     "s": "14,000 km",
+     "unit": "of pigs in a row",
+     "y": 0.45,
+     "at": "14,000"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "So when you eat Danish bacon, it really did travel the world.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "pig",
+     "size": 300,
+     "y": 0.25,
+     "accent": "#F5C6C9"
+    },
+    {
+     "k": "text",
+     "s": "Danish bacon travels the world",
+     "size": 62,
+     "y": 0.85,
+     "at": "bacon"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "nl",
+      "es",
+      "de",
+      "cn"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}
