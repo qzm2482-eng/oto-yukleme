@@ -1,0 +1,24 @@
+name: Delete test
+
+on:
+  workflow_dispatch:
+  push:
+    paths: [".github/workflows/delete_test.yml"]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_TOKEN_1: ${{ secrets.YT_TOKEN_1 }}
+          YT_TOKEN_2: ${{ secrets.YT_TOKEN_2 }}
+          IG_TOKEN_1: ${{ secrets.IG_TOKEN_1 }}
+          IG_TOKEN_2: ${{ secrets.IG_TOKEN_2 }}
+        run: python scripts/delete_test.py
