@@ -29,5 +29,13 @@ Learning loop: read logs/uploads.jsonl and topics.md; repeat/vary what performs,
 - Retrying winning topic types with new angles; dropping weak topic types.
 - Fixing bugs in scripts/ and workflows (uploads, retries, errors), without changing upload times or targets.
 
+## Growth rules (owner-approved, Nov 2026)
+- Topics: stay inside each channel's niche (history incl. mythology / strange facts & country comparisons). History is broad: prefer the most efficient sub-topics. Research open sources and trends (Google Trends, Wikipedia most-viewed, YouTube/Instagram/Reddit popular public content in the niche) and turn proven-popular subjects into our own original videos in the locked style. Only queue what you are fully sure about (facts + copyright); otherwise skip.
+- Data: logs/stats.jsonl (daily snapshot by the "Daily stats" Action, 07:17 UTC) + logs/uploads.jsonl.
+- Posting times: keep 17:00/20:00/23:00/02:00 until ~10-12 days of data exist. After that you MAY move slots per channel and per weekday to the best-performing hours (still posting every day). Slot time = file name, so just name files for the new times. Record the change and reason in topics.md.
+- Video count: keep 4/day per channel for the first 7 days, then you MAY plan the count from the data; record why.
+- Weak videos: investigate why (topic, title, hook, cover, time slot, voice/audio, length) and write the diagnosis in topics.md.
+- Strong videos: record what they share. Make similar content on different subjects; if it works, test the pattern 1-2 more times; if it keeps trending, go deeper at that level and carry the lesson to other topics.
+
 ## What it may NOT change without the owner
-- Style (above), upload times (17:00, 20:00, 23:00, 02:00), number of videos, which channels/accounts get posts, deleting anything already published, account/token settings.
+- Style (above), which channels/accounts get posts, deleting anything already published, account/token settings.
