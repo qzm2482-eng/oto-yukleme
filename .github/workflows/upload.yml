@@ -1,9 +1,8 @@
 name: Upload videos
 
 on:
-  push:
-    branches: [main]
-    paths: ["videos/**"]
+  schedule:
+    - cron: "2 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -16,14 +15,14 @@ concurrency:
 jobs:
   upload:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install requests
-      - name: Upload new videos
+      - name: Upload due videos
         env:
           YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
           YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
@@ -32,10 +31,10 @@ jobs:
           IG_TOKEN_1: ${{ secrets.IG_TOKEN_1 }}
           IG_TOKEN_2: ${{ secrets.IG_TOKEN_2 }}
         run: python scripts/upload.py
-      - name: Remove uploaded videos from repo
+      - name: Commit queue changes and log
         if: always()
         run: |
           git config user.name "upload-bot"
           git config user.email "upload-bot@users.noreply.github.com"
-          git add -A videos
-          git diff --cached --quiet || (git commit -m "Remove uploaded videos" && git pull --rebase origin main && git push)
+          git add -A videos logs
+          git diff --cached --quiet || (git commit -m "Upload run" && git pull --rebase origin main && git push)

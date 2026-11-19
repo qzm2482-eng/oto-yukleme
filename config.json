@@ -3,12 +3,14 @@
     "name": "Empire in Minutes History",
     "yt_token_secret": "YT_TOKEN_1",
     "ig_token_secret": "IG_TOKEN_1",
-    "ig_id": "17841480760907210"
+    "ig_id": "17841480760907210",
+    "category": "27"
   },
   "oddy": {
     "name": "ODDYzenTC",
     "yt_token_secret": "YT_TOKEN_2",
     "ig_token_secret": "IG_TOKEN_2",
-    "ig_id": "17841473699787179"
+    "ig_id": "17841473699787179",
+    "category": "24"
   }
 }
