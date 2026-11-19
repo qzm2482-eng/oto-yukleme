@@ -9,7 +9,7 @@
       "message": "Cannot call API for app 4598018927139923 on behalf of user 122196384896857517",
       "type": "OAuthException",
       "code": 200,
-      "fbtrace_id": "AmvWejUAWf6gKt3xRnk_XJ3"
+      "fbtrace_id": "Aj4T3xXwGooSjDBjLYkErtw"
      }
     }
    },
@@ -21,12 +21,21 @@
       "message": "Cannot call API for app 4598018927139923 on behalf of user 122196384896857517",
       "type": "OAuthException",
       "code": 200,
-      "fbtrace_id": "AxIRyzDOTgb4ykTTBaleFO5"
+      "fbtrace_id": "ADSO08V40gIFv9eXSq_g7yP"
      }
     }
    }
   ],
   "youtube": [
+   {
+    "id": "m-Dhb49PiT8",
+    "title": "You're Thrown Into the Minotaur's Labyrinth #history",
+    "published": "2026-11-19T20:16:47Z",
+    "privacy": "public",
+    "publishAt": null,
+    "duration": "PT40S",
+    "views": "0"
+   },
    {
     "id": "JteVUFFIhms",
     "title": "You're a Roman Fuller — You Wash Togas in Urine #history",
@@ -43,7 +52,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT47S",
-    "views": "5"
+    "views": "4"
    },
    {
     "id": "dM152cLjofM",
@@ -61,7 +70,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT30S",
-    "views": "8"
+    "views": "9"
    },
    {
     "id": "6z8qvtvmufc",
@@ -70,7 +79,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT26S",
-    "views": "7"
+    "views": "8"
    },
    {
     "id": "5l3ZDENt2_A",
@@ -232,7 +241,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT31S",
-    "views": "156"
+    "views": "158"
    },
    {
     "id": "o5iJzsEnGzI",
@@ -250,7 +259,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT28S",
-    "views": "159"
+    "views": "160"
    },
    {
     "id": "N7qPfmc1V_w",
@@ -277,7 +286,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT26S",
-    "views": "91"
+    "views": "92"
    },
    {
     "id": "HHVVAoCcGmk",
@@ -469,15 +478,6 @@
     "views": "39"
    },
    {
-    "id": "ZsijjiA11Cw",
-    "title": "The Week Constantinople Burned: The Nika Riots (532)",
-    "published": "2026-11-13T18:00:21Z",
-    "privacy": "public",
-    "publishAt": null,
-    "duration": "PT2M43S",
-    "views": "0"
-   },
-   {
     "id": "dM152cLjofM",
     "title": "Why These Bronze Horses Are Still in Venice",
     "published": "2026-11-19T05:00:22Z",
@@ -502,7 +502,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT26S",
-    "views": "7"
+    "views": "8"
    },
    {
     "id": "OTBXX_8-scw",
@@ -775,6 +775,15 @@
     "views": "161"
    },
    {
+    "id": "eLNkCRIS9Lg",
+    "title": "He Chose Death Over Surrender",
+    "published": "2026-11-13T01:30:20Z",
+    "privacy": "public",
+    "publishAt": null,
+    "duration": "PT24S",
+    "views": "202"
+   },
+   {
     "id": "y5ICYBNh04g",
     "title": "Mehmed II's Genius Move: Ships on Land!",
     "published": "2026-11-13T01:00:18Z",
@@ -919,15 +928,6 @@
     "views": "10"
    },
    {
-    "id": "42UHSW6slNo",
-    "title": "How Did These Roman Walls Survive 1,600 Years?",
-    "published": "2026-11-11T02:00:08Z",
-    "privacy": "public",
-    "publishAt": null,
-    "duration": "PT23S",
-    "views": "158"
-   },
-   {
     "id": "u-315JtRCNM",
     "title": "What Really Happened to the Roman Empire?",
     "published": "2026-11-12T23:00:01Z",
@@ -989,6 +989,15 @@
     "publishAt": null,
     "duration": "PT2M38S",
     "views": "5"
+   },
+   {
+    "id": "C45wwYP60AU",
+    "title": "Why Nobody Could Break Constantinople's Walls",
+    "published": "2026-11-10T14:00:14Z",
+    "privacy": "public",
+    "publishAt": null,
+    "duration": "PT2M34S",
+    "views": "3"
    },
    {
     "id": "T6i9zjgZD08",
@@ -1067,7 +1076,7 @@
       "message": "Cannot call API for app 4598018927139923 on behalf of user 122196384896857517",
       "type": "OAuthException",
       "code": 200,
-      "fbtrace_id": "ADiPrmY-ODr61XvpPsA6REh"
+      "fbtrace_id": "ADkv5nRVlzzI2eQ9MeogHMS"
      }
     }
    },
@@ -1079,12 +1088,21 @@
       "message": "Cannot call API for app 4598018927139923 on behalf of user 122196384896857517",
       "type": "OAuthException",
       "code": 200,
-      "fbtrace_id": "ALF03tbRwuz-g9uApS50TbS"
+      "fbtrace_id": "AexNU15EKZhwOfbe6YGfczF"
      }
     }
    }
   ],
   "youtube": [
+   {
+    "id": "TX60mm_loA0",
+    "title": "Is Russia Really Bigger Than Pluto? #didyouknow #facts",
+    "published": "2026-11-19T20:16:52Z",
+    "privacy": "public",
+    "publishAt": null,
+    "duration": "PT51S",
+    "views": "0"
+   },
    {
     "id": "e83sj0XxLSs",
     "title": "The Country With More Pigs Than People #didyouknow #facts",
@@ -1119,7 +1137,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT48S",
-    "views": "349"
+    "views": "348"
    },
    {
     "id": "x138KTfWgWw",
@@ -1173,7 +1191,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT47S",
-    "views": "79"
+    "views": "77"
    },
    {
     "id": "gQkqq9ygRhE",
@@ -1182,7 +1200,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT47S",
-    "views": "499"
+    "views": "498"
    },
    {
     "id": "kSVOt-TGWg4",
@@ -1191,7 +1209,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT51S",
-    "views": "246"
+    "views": "247"
    },
    {
     "id": "NlBpepCweKc",
