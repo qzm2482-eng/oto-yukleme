@@ -58,6 +58,35 @@
      "created_time": "2026-11-19T17:25:00+0000",
      "id": "1003529605504594"
     }
+   },
+   {
+    "id": "1475399648113901",
+    "file": "videos/empire/2026-11-19_2300.mp4",
+    "info": {
+     "status": {
+      "video_status": "ready",
+      "uploading_phase": {
+       "status": "complete",
+       "bytes_transferred": 3718045
+      },
+      "processing_phase": {
+       "status": "complete"
+      },
+      "publishing_phase": {
+       "status": "complete",
+       "publish_status": "published",
+       "publish_time": "2026-11-19T20:43:41+0000"
+      },
+      "copyright_check_status": {
+       "status": "complete",
+       "matches_found": false
+      }
+     },
+     "published": true,
+     "permalink_url": "/reel/1475399648113901/",
+     "created_time": "2026-11-19T20:43:41+0000",
+     "id": "1475399648113901"
+    }
    }
   ],
   "youtube": [
@@ -68,7 +97,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT40S",
-    "views": "0"
+    "views": "3"
    },
    {
     "id": "JteVUFFIhms",
@@ -86,7 +115,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT47S",
-    "views": "4"
+    "views": "5"
    },
    {
     "id": "dM152cLjofM",
@@ -113,7 +142,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT26S",
-    "views": "7"
+    "views": "8"
    },
    {
     "id": "5l3ZDENt2_A",
@@ -212,7 +241,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT29S",
-    "views": "102"
+    "views": "99"
    },
    {
     "id": "ePFQhtEbxIM",
@@ -293,7 +322,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT28S",
-    "views": "160"
+    "views": "161"
    },
    {
     "id": "N7qPfmc1V_w",
@@ -536,7 +565,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT26S",
-    "views": "7"
+    "views": "8"
    },
    {
     "id": "OTBXX_8-scw",
@@ -581,7 +610,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT29S",
-    "views": "102"
+    "views": "99"
    },
    {
     "id": "aAeNs3_h93s",
@@ -635,7 +664,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT28S",
-    "views": "160"
+    "views": "161"
    },
    {
     "id": "N7qPfmc1V_w",
@@ -1099,6 +1128,12 @@
   ],
   "instagram": [
    {
+    "id": "18137428141779126",
+    "caption": "You're Thrown Into the Minotaur's Labyrinth 🏛️\n\nCould you escape the Labyrinth of Crete before the M",
+    "time": "2026-11-19T20:43:34+0000",
+    "type": "REELS"
+   },
+   {
     "id": "18110463893247754",
     "caption": "You're a Roman Fuller — You Wash Togas in Urine 🏛️\n\nRomans paid people to wash clothes in old urine,",
     "time": "2026-11-19T17:24:53+0000",
@@ -1208,6 +1243,11 @@
    }
   ],
   "facebook": [
+   {
+    "id": "1475399648113901",
+    "desc": "You're Thrown Into the Minotaur's Labyrinth 🏛️\n\nCould you escape the Labyrinth of Crete before the M",
+    "time": "2026-11-19T20:43:41+0000"
+   },
    {
     "id": "1003529605504594",
     "desc": "You're a Roman Fuller — You Wash Togas in Urine 🏛️\n\nRomans paid people to wash clothes in old urine,",
@@ -1364,7 +1404,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT51S",
-    "views": "0"
+    "views": "30"
    },
    {
     "id": "e83sj0XxLSs",
@@ -1373,7 +1413,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT43S",
-    "views": "1"
+    "views": "27"
    },
    {
     "id": "qwhj9lm5BSA",
@@ -1382,7 +1422,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT40S",
-    "views": "5"
+    "views": "6"
    },
    {
     "id": "KYIfZT1NjBk",
@@ -1391,7 +1431,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT41S",
-    "views": "143"
+    "views": "144"
    },
    {
     "id": "NrjdzNJW01o",
@@ -1400,7 +1440,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT48S",
-    "views": "348"
+    "views": "350"
    },
    {
     "id": "x138KTfWgWw",
@@ -1409,7 +1449,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT54S",
-    "views": "53"
+    "views": "54"
    },
    {
     "id": "ap3Tl920Cts",
@@ -1436,7 +1476,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT47S",
-    "views": "437"
+    "views": "435"
    },
    {
     "id": "UhbU0qf_kZI",
@@ -1445,7 +1485,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT49S",
-    "views": "5"
+    "views": "6"
    },
    {
     "id": "CbO25trYdLA",
@@ -1481,7 +1521,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT55S",
-    "views": "79"
+    "views": "80"
    },
    {
     "id": "MWTiEHXcCrM",
@@ -1499,7 +1539,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT48S",
-    "views": "247"
+    "views": "248"
    },
    {
     "id": "BrCw8TYY_Nw",
@@ -1535,7 +1575,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT48S",
-    "views": "1280"
+    "views": "1281"
    },
    {
     "id": "i0afwe1E16k",
