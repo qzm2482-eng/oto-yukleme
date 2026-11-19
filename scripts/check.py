@@ -24,4 +24,6 @@ for k, name in EXPECT_YT.items():
     c = requests.get("https://www.googleapis.com/youtube/v3/channels", params={"part": "snippet", "mine": "true"},
                      headers={"Authorization": f"Bearer {a['access_token']}"}, timeout=60).json()
     t = (c.get("items") or [{}])[0].get("snippet", {}).get("title")
+    sc = requests.get("https://oauth2.googleapis.com/tokeninfo", params={"access_token": a["access_token"]}, timeout=60).json().get("scope", "")
+    print(k, "channel:", t, "force_ssl:", "youtube.force-ssl" in sc, "analytics:", "yt-analytics" in sc)
     print(k, "OK" if t == name else f"MISMATCH (channel={t})")
