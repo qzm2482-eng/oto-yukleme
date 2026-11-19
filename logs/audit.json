@@ -9,7 +9,7 @@
       "message": "Cannot call API for app 4598018927139923 on behalf of user 122196384896857517",
       "type": "OAuthException",
       "code": 200,
-      "fbtrace_id": "A5waNCAMb4k0ZNaFBXdUphF"
+      "fbtrace_id": "AmvWejUAWf6gKt3xRnk_XJ3"
      }
     }
    },
@@ -21,7 +21,7 @@
       "message": "Cannot call API for app 4598018927139923 on behalf of user 122196384896857517",
       "type": "OAuthException",
       "code": 200,
-      "fbtrace_id": "AvPkjjlhJKwxVoeRd3G5Crp"
+      "fbtrace_id": "AxIRyzDOTgb4ykTTBaleFO5"
      }
     }
    }
@@ -43,7 +43,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT47S",
-    "views": "4"
+    "views": "5"
    },
    {
     "id": "dM152cLjofM",
@@ -61,7 +61,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT30S",
-    "views": "9"
+    "views": "8"
    },
    {
     "id": "6z8qvtvmufc",
@@ -232,7 +232,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT31S",
-    "views": "158"
+    "views": "156"
    },
    {
     "id": "o5iJzsEnGzI",
@@ -250,7 +250,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT28S",
-    "views": "160"
+    "views": "159"
    },
    {
     "id": "N7qPfmc1V_w",
@@ -277,7 +277,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT26S",
-    "views": "92"
+    "views": "91"
    },
    {
     "id": "HHVVAoCcGmk",
@@ -1067,7 +1067,7 @@
       "message": "Cannot call API for app 4598018927139923 on behalf of user 122196384896857517",
       "type": "OAuthException",
       "code": 200,
-      "fbtrace_id": "AZSak7CD1ZQSUD5ktnLXNVI"
+      "fbtrace_id": "ADiPrmY-ODr61XvpPsA6REh"
      }
     }
    },
@@ -1079,7 +1079,7 @@
       "message": "Cannot call API for app 4598018927139923 on behalf of user 122196384896857517",
       "type": "OAuthException",
       "code": 200,
-      "fbtrace_id": "AtBvRS23MeC_2PWLkJaVjGs"
+      "fbtrace_id": "ALF03tbRwuz-g9uApS50TbS"
      }
     }
    }
@@ -1119,7 +1119,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT48S",
-    "views": "348"
+    "views": "349"
    },
    {
     "id": "x138KTfWgWw",
@@ -1173,7 +1173,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT47S",
-    "views": "77"
+    "views": "79"
    },
    {
     "id": "gQkqq9ygRhE",
@@ -1182,7 +1182,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT47S",
-    "views": "498"
+    "views": "499"
    },
    {
     "id": "kSVOt-TGWg4",
@@ -1191,7 +1191,7 @@
     "privacy": "public",
     "publishAt": null,
     "duration": "PT51S",
-    "views": "247"
+    "views": "246"
    },
    {
     "id": "NlBpepCweKc",
