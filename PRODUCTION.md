@@ -13,4 +13,5 @@ Channels:
 - empire = Empire in Minutes History (English history Shorts) + IG empire.in.minutes
 - oddy   = ODDYzenTC (English weird facts / country comparisons) + IG oddyzentc
 
+Style: follow STYLE.md exactly.
 Learning loop: read logs/uploads.jsonl and topics.md; repeat/vary what performs, avoid repeats of identical topics.
