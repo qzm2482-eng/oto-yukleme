@@ -123,7 +123,7 @@ def main():
             print(f"[{ch['name']}] {path}")
             rec = {"time": NOW.isoformat(), "channel": key, "file": path, "title": meta["title"]}
             try:
-                if not meta.get("_yt_done"):
+                if not meta.get("_yt_done") and "youtube" in meta.get("platforms", ["youtube"]):
                     rec["youtube"] = upload_youtube(ch, path, meta, cover)
                     meta["_yt_done"] = rec["youtube"]
                     json.dump(meta, open(base + ".json", "w"))

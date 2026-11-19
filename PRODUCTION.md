@@ -55,5 +55,12 @@ Learning loop: read logs/uploads.jsonl and topics.md; repeat/vary what performs,
   description, hashtags) without touching what already works on the winning platform.
 - Optional per-platform fields in <slot>.json: yt_title, yt_description, ig_caption, fb_description (fallback: title/description).
 
+## Cross-platform remakes (owner chose plan A, 19 Nov 2026)
+- ~95 Empire and ~23 ODDY Shorts exist only on YouTube (see logs/audit.json). Files are not available.
+- Each day add ONE extra remake per channel at 13:00 Istanbul: re-make a top YouTube topic in the locked STYLE.md style,
+  posted to Instagram + Facebook only: put "platforms": ["instagram", "facebook"] in its .json.
+- Order by YouTube views (top first). Start: Empire = Constantinople/Byzantine series winners; ODDY = toilet paper USA, hot dogs, Germany zombie, chocolate, Philippines internet.
+- Track remakes in topics.md under "remakes" and compare IG/FB results to the originals; stop when remakes stop beating new topics.
+
 ## What it may NOT change without the owner
 - Style (above), which channels/accounts get posts, deleting anything already published, account/token settings.
