@@ -80,6 +80,26 @@ def upload_instagram(ch, path, meta, cover):
     return p.json()["id"]
 
 
+def upload_facebook(ch, path, meta):
+    token = os.environ[ch["ig_token_secret"]]
+    page = ch["fb_page_id"]
+    st = requests.post(f"{GRAPH}/{page}/video_reels", data={"upload_phase": "start", "access_token": token}, timeout=60)
+    if not st.ok:
+        raise RuntimeError(f"FB start: {st.text[:300]}")
+    vid = st.json()["video_id"]
+    up = requests.post(f"https://rupload.facebook.com/video-upload/v21.0/{vid}",
+                       headers={"Authorization": f"OAuth {token}", "file_url": raw(path)}, timeout=300)
+    if not up.ok:
+        raise RuntimeError(f"FB upload: {up.text[:300]}")
+    desc = meta.get("caption") or f"{meta['title']}\n\n{meta.get('description', '')}".strip()
+    fin = requests.post(f"{GRAPH}/{page}/video_reels", data={"upload_phase": "finish", "video_id": vid,
+                        "video_state": "PUBLISHED", "description": desc, "title": meta["title"][:100],
+                        "access_token": token}, timeout=120)
+    if not fin.ok:
+        raise RuntimeError(f"FB finish: {fin.text[:300]}")
+    return vid
+
+
 def due(path):
     stem = os.path.basename(path)[:-4]
     try:
@@ -108,8 +128,14 @@ def main():
                     meta["_yt_done"] = rec["youtube"]
                     json.dump(meta, open(base + ".json", "w"))
                     print("  YouTube OK:", rec["youtube"])
-                rec["instagram"] = upload_instagram(ch, path, meta, cover)
-                print("  Instagram OK:", rec["instagram"])
+                if not meta.get("_ig_done"):
+                    rec["instagram"] = upload_instagram(ch, path, meta, cover)
+                    meta["_ig_done"] = rec["instagram"]
+                    json.dump(meta, open(base + ".json", "w"))
+                    print("  Instagram OK:", rec["instagram"])
+                if ch.get("fb_page_id") and not meta.get("_fb_done"):
+                    rec["facebook"] = upload_facebook(ch, path, meta)
+                    print("  Facebook OK:", rec["facebook"])
                 for ext in (".mp4", ".json", ".jpg"):
                     if os.path.exists(base + ext):
                         os.remove(base + ext)

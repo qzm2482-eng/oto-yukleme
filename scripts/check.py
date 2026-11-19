@@ -11,6 +11,8 @@ for k, page in EXPECT_PAGE.items():
                      params={"fields": "id,name,instagram_business_account", "access_token": t}, timeout=60).json()
     ig = (r.get("instagram_business_account") or {}).get("id")
     ok = r.get("id") == page and ig == EXPECT_IG[k]
+    d = requests.get("https://graph.facebook.com/v21.0/debug_token", params={"input_token": t, "access_token": t}, timeout=60).json().get("data", {})
+    print(k, "expires_at:", d.get("expires_at"), "fb_post:", "pages_manage_posts" in d.get("scopes", []))
     print(k, "OK" if ok else f"MISMATCH (page={r.get('id')} name={r.get('name')} ig={ig} err={r.get('error', {}).get('message')})")
 
 for k, name in EXPECT_YT.items():

@@ -2,6 +2,8 @@ name: Check secrets
 
 on:
   workflow_dispatch:
+  push:
+    paths: ["scripts/check.py"]
 
 jobs:
   check:
