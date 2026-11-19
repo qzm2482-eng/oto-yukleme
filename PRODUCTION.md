@@ -10,6 +10,9 @@ ask them in the short Turkish summary message: what you need, why, and what it w
 
 Slots (Europe/Istanbul): 17:00, 20:00, 23:00, 02:00 (02:00 belongs to the next calendar date).
 Each slot = 1 video per channel -> 8 videos per day.
+Keep a ONE-DAY BUFFER: every run fills all missing slots for the next 48 hours, so one failed run never leaves a gap.
+Alerts: each run checks logs/uploads.jsonl for entries with "error" since the last run, fixes the cause if it can, and reports them in the summary.
+Keep videos small (H.264 CRF ~26, AAC 128k, 720x1280) so the repo grows slowly.
 
 File naming: videos/<empire|oddy>/<YYYY-MM-DD_HHMM>.mp4 + .json + .jpg
 - .json: {"title": "...", "description": "...", "tags": [...]}
