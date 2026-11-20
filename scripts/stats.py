@@ -24,6 +24,8 @@ for key, ch in CFG.items():
             "ids": "channel==MINE", "startDate": "2026-11-01", "endDate": date.today().isoformat(),
             "metrics": "views,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,likes,shares,subscribersGained",
             "dimensions": "video", "sort": "-views", "maxResults": 200}, headers={"Authorization": f"Bearer {tok}"}).json()
+        if "error" in ra:
+            out.append({"time": NOW, "channel": key, "platform": "youtube_analytics", "error": str(ra["error"])[:300]})
         heads = [h["name"] for h in ra.get("columnHeaders", [])]
         for row in ra.get("rows", []):
             out.append({"time": NOW, "channel": key, "platform": "youtube_analytics", **dict(zip(heads, row))})
@@ -31,6 +33,8 @@ for key, ch in CFG.items():
         print("yt analytics skipped:", e)
     m = requests.get(f"{G}/{ch['ig_id']}/media", params={"fields": "id,caption,timestamp,like_count,comments_count,media_product_type",
         "limit": 50, "access_token": os.environ[ch["ig_token_secret"]]}).json()
+    if "error" in m:
+        out.append({"time": NOW, "channel": key, "platform": "instagram", "error": str(m["error"])[:300]})
     for p in m.get("data", []):
         out.append({"time": NOW, "channel": key, "platform": "instagram", "id": p["id"],
                     "title": (p.get("caption") or "")[:80], "published": p.get("timestamp"),
