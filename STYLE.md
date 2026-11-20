@@ -16,7 +16,7 @@ No paid resources. Loudness about -15 LUFS. Keep key content above bottom title 
 - Voice: male deep calm dramatic narrator, ~3 words/s, no long pauses. Music: soft sweet music-box bed ~17-20 dB under voice, never bass-heavy. No transition SFX. Smooth gradual scene changes every ~2-4 s.
 
 ## ODDYzenTC (oddy) — English strange facts / country comparisons
-- 9:16, ~40-50 s, ~110-120 words.
+- 9:16, ~30-35 s, ~75-85 words (owner OK 20 Nov 2026: viewers left at ~21 s of 47-55 s). Answer/reveal by ~12 s; keep a short bar chart; the scale comparison is optional.
 - Script: hook = surprising stat or debunked assumption + "Can you guess which country?" -> reveal with yearly per-person number -> relatable breakdown -> animated bar chart of 4-6 countries ending with winner -> one mind-blowing scale comparison -> short takeaway -> end exactly: "Which country should we check next? Drop your flag below."
 - Best topics: food/consumption per country, "why country X is the most Y". Weaker: money, gambling, pets budget, electricity.
 - Visuals: cream notebook grid paper (#F7F3E8), minimalist hand-drawn 2D doodles (icons, flags, globe, charts); line-draw reveals, pop-in with slight overshoot, bars growing; carousel slide every 4-6 s.

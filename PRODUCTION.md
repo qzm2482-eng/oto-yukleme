@@ -62,6 +62,12 @@ Learning loop: read logs/uploads.jsonl and topics.md; repeat/vary what performs,
 - Order by YouTube views (top first). Start: Empire = Constantinople/Byzantine series winners; ODDY = toilet paper USA, hot dogs, Germany zombie, chocolate, Philippines internet.
 - Track remakes in topics.md under "remakes" and compare IG/FB results to the originals; stop when remakes stop beating new topics.
 
+## Owner approval 20 Nov 2026 — data-driven format changes
+- Owner approved: you may change length, hook, pacing, script structure, titles, covers, first frame and loops on your own judgment from the data. Report changes only in the 5 Dec review.
+- Test the SAME winning topics again with different content/angles at the new shorter length (e.g. Ataturk, Theodosian walls, Ötzi, toilet paper, languages) to see if the length + hook, not the topic, breaks the ~1,000-view wall.
+- The visual look (palette, characters, voice, fonts) stays; if the data says the look itself is the problem, write the case in topics.md for the 5 Dec review instead of switching.
+- Checkpoint: 5 Dec 2026 full review with the owner (which channel to focus on; new German channel idea as plan B).
+
 ## What it may NOT change without the owner
 - Style (above), which channels/accounts get posts, deleting anything already published, account/token settings.
 
