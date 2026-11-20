@@ -1,0 +1,186 @@
+{
+ "topic": "Israel: most chicken per person (OECD-FAO 2018)",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "One country eats more chicken per person than the USA. A lot more. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "More chicken than the USA?",
+     "size": 66,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "meat",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#F2D9A0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · ISRAEL",
+   "text": "It's Israel. In OECD data, people there eat about 58 and a half kilos of chicken and other poultry a year.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "il",
+     "name": "Israel",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "58.5 kg",
+     "unit": "per person / year",
+     "y": 0.8,
+     "at": "58"
+    }
+   ]
+  },
+  {
+   "tag": "02 · PER WEEK",
+   "text": "That's more than one kilo of chicken, every single week, for every person.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "calendar",
+     "size": 240,
+     "y": 0.1,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "big",
+     "s": "1.1 kg",
+     "unit": "every week",
+     "y": 0.8,
+     "at": "kilo"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "Brazil eats about 41. Australia, 44. Malaysia, 47. The USA, almost 50. And Israel tops them all, by almost 9 kilos.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "br",
+       "Brazil",
+       40.6
+      ],
+      [
+       "au",
+       "Australia",
+       43.9
+      ],
+      [
+       "my",
+       "Malaysia",
+       46.7
+      ],
+      [
+       "us",
+       "USA",
+       49.8
+      ],
+      [
+       "il",
+       "Israel",
+       58.5
+      ]
+     ],
+     "fmt": "{:.1f}",
+     "unit": " kg",
+     "y": 0.12,
+     "ats": [
+      "Brazil",
+      "Australia",
+      "Malaysia",
+      "USA",
+      "Israel"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "In just ten years, one person there eats over half a ton of poultry.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "scale",
+     "size": 220,
+     "y": 0.0,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "big",
+     "s": "585 kg",
+     "unit": "in 10 years",
+     "y": 0.5,
+     "at": "half"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "Chicken schnitzel and shawarma are everyday food there.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "meat",
+     "size": 280,
+     "y": 0.2,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "text",
+     "s": "Schnitzel + shawarma",
+     "size": 64,
+     "y": 0.85,
+     "at": "schnitzel"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "il",
+      "us",
+      "br",
+      "my"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "topic": "Costa Rica: no army since 1948",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "One country got rid of its entire army in 1948, and never brought it back. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "No army since 1948?",
+     "size": 70,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "shield-off",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#F2D9A0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · COSTA RICA",
+   "text": "It's Costa Rica. On December 1st, 1948, its leader José Figueres abolished the army. A year later, it went into the constitution.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "cr",
+     "name": "Costa Rica",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "Dec 1, 1948",
+     "unit": "army abolished",
+     "y": 0.8,
+     "at": "December"
+    }
+   ]
+  },
+  {
+   "tag": "02 · WHAT'S LEFT",
+   "text": "There's a police force, but no army. And December 1st is now a national holiday in Costa Rica.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "shield-off",
+     "size": 240,
+     "y": 0.1,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "text",
+     "s": "Police yes, army no",
+     "size": 64,
+     "y": 0.65,
+     "color": "teal",
+     "at": "police"
+    },
+    {
+     "k": "text",
+     "s": "Dec 1 = holiday",
+     "size": 64,
+     "y": 0.92,
+     "color": "terra",
+     "at": "holiday"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "Years without an army: Panama, 36. Costa Rica, 77. Iceland, about 157. And Liechtenstein beat them all, back in 1868. That's over 150 years.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "pa",
+       "Panama",
+       36
+      ],
+      [
+       "cr",
+       "Costa Rica",
+       77
+      ],
+      [
+       "is",
+       "Iceland",
+       157
+      ],
+      [
+       "li",
+       "Liechtenstein",
+       158
+      ]
+     ],
+     "fmt": "{:.0f}",
+     "unit": " yrs",
+     "y": 0.12,
+     "ats": [
+      "Panama",
+      "Costa",
+      "Iceland",
+      "Liechtenstein"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "But with about 5.2 million people, Costa Rica has the most people of the four.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "users-group",
+     "size": 220,
+     "y": 0.0,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "big",
+     "s": "5.2 million",
+     "unit": "people, no army",
+     "y": 0.5,
+     "at": "5.2"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "Figueres said the money should go to schools instead.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "school",
+     "size": 300,
+     "y": 0.2,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "text",
+     "s": "Schools, not soldiers",
+     "size": 64,
+     "y": 0.85,
+     "at": "schools"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "cr",
+      "pa",
+      "is",
+      "li"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

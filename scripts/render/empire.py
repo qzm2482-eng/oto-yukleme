@@ -301,10 +301,14 @@ class Scene:
             out = bx.convert("RGBA")
             drop = ease((t - self.t0) / 0.7)
             cz = 0.94 + 0.06 * drop + 0.03 * p
-            card = self.card.resize((int(self.card.width * cz), int(self.card.height * cz)), Image.BICUBIC)
-            sh = Image.new("RGBA", card.size, (0, 0, 0, 120))
-            x = (SW - card.width) // 2; y = int((SH - card.height) / 2 - 70 * (1 - drop))
-            out.alpha_composite(sh, (x + 10, y + 14)); out.alpha_composite(card, (x, y))
+            # subpixel placement (no whole-pixel stepping): affine-map the card onto the screen with float scale/offset
+            cw, ch = self.card.width * cz, self.card.height * cz
+            x = (SW - cw) / 2; y = (SH - ch) / 2 - 70 * (1 - drop)
+            if not hasattr(self, "_shadow"):
+                self._shadow = Image.new("RGBA", self.card.size, (0, 0, 0, 120))
+            for src, ox, oy in ((self._shadow, x + 10, y + 14), (self.card, x, y)):
+                lay = src.transform((SW, SH), Image.AFFINE, (1 / cz, 0, -ox / cz, 0, 1 / cz, -oy / cz), Image.BICUBIC)
+                out.alpha_composite(lay)
             return out.convert("RGB")
         if self.type == "img":
             z0, z1 = sc.get("zoom", [1.0, 1.12])

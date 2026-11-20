@@ -1,0 +1,196 @@
+{
+ "topic": "Iceland: first mosquitoes found (Oct 2025) — myth-bust",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "For as long as anyone knew, only two places on Earth had no mosquitoes. Antarctica, and one country. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "No mosquitoes at all?",
+     "size": 70,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "bug-off",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#DDE8C8"
+    }
+   ]
+  },
+  {
+   "tag": "01 · ICELAND",
+   "text": "It was Iceland. But in October 2025, that changed. An insect lover found three mosquitoes near his home in Kjós.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "is",
+     "name": "Iceland",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "3 mosquitoes",
+     "unit": "October 2025",
+     "y": 0.8,
+     "at": "three"
+    }
+   ]
+  },
+  {
+   "tag": "02 · CONFIRMED",
+   "text": "Scientists confirmed the species. Culiseta annulata, a mosquito that can survive cold winters.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "bug",
+     "size": 260,
+     "y": 0.1,
+     "accent": "#DDE8C8"
+    },
+    {
+     "k": "text",
+     "s": "Culiseta annulata",
+     "size": 64,
+     "y": 0.65,
+     "color": "teal",
+     "at": "Culiseta"
+    },
+    {
+     "k": "text",
+     "s": "built for the cold",
+     "size": 60,
+     "y": 0.92,
+     "color": "terra",
+     "at": "cold"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "Mosquito species: Iceland now has one. Greenland, two. The UK, 36. Finland, 43. And Sweden, 51. Over fifty kinds of mosquito.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "is",
+       "Iceland",
+       1
+      ],
+      [
+       "gl",
+       "Greenland",
+       2
+      ],
+      [
+       "gb",
+       "UK",
+       36
+      ],
+      [
+       "fi",
+       "Finland",
+       43
+      ],
+      [
+       "se",
+       "Sweden",
+       51
+      ]
+     ],
+     "fmt": "{:.0f}",
+     "unit": "",
+     "y": 0.12,
+     "ats": [
+      "Iceland",
+      "Greenland",
+      "UK",
+      "Finland",
+      "Sweden"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "That means Antarctica is now the only place on Earth with no mosquitoes.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "snowflake",
+     "size": 240,
+     "y": 0.0,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "text",
+     "s": "Antarctica: the last one",
+     "size": 66,
+     "y": 0.6,
+     "color": "terra",
+     "at": "Antarctica"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "Scientists think warmer weather may have helped them get there.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "temperature",
+     "size": 280,
+     "y": 0.2,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "text",
+     "s": "Warmer weather?",
+     "size": 66,
+     "y": 0.85,
+     "at": "warmer"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "is",
+      "gl",
+      "se",
+      "fi"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}
