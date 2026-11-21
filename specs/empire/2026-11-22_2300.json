@@ -1,0 +1,163 @@
+{
+ "topic": "Tenochtitlan when Cortés arrives, Nov 1519 - Aug 1521",
+ "title_card": "TENOCHTITLAN · 1519",
+ "beats": [
+  {
+   "text": "November 1519. You live in Tenochtitlan, a huge city built on a lake.",
+   "keys": [
+    "1519",
+    "Tenochtitlan",
+    "lake"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Map of Tenochtitlan, 1524.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.28
+    ],
+    "reveal": "iris",
+    "focus2": [
+     0.5,
+     0.45
+    ]
+   }
+  },
+  {
+   "text": "Strangers in metal armour arrive, riding animals you've never seen.",
+   "keys": [
+    "armour",
+    "animals"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:The Meeting of Cortés and Moctezuma (Conquest of Mexico) Painting.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Emperor Moctezuma welcomes them as guests. Soon, he's their prisoner.",
+   "keys": [
+    "Moctezuma",
+    "guests",
+    "prisoner"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "MOCTEZUMA",
+    "icons": [
+     "crown",
+     "swords"
+    ],
+    "bg": "#3a4a6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Danger one: smallpox. Nobody here has immunity, and it kills huge numbers.",
+   "keys": [
+    "smallpox",
+    "immunity"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "SMALLPOX",
+    "icons": [
+     "virus",
+     "skull"
+    ],
+    "bg": "#2f6b5a",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Danger two: siege. The Spanish and their allies cut the causeways and fresh water.",
+   "keys": [
+    "siege",
+    "causeways",
+    "water"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Conquista-de-México-por-Cortés-Tenochtitlan-Painting.png",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.2
+    ],
+    "reveal": "iris",
+    "focus2": [
+     0.45,
+     0.5
+    ]
+   }
+  },
+  {
+   "text": "Danger three: hunger. Food stops coming across the lake.",
+   "keys": [
+    "hunger",
+    "Food"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Fall of Tenochtitlan (cropped4to3).png",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "August 1521. After a long siege, the city falls.",
+   "keys": [
+    "1521",
+    "falls"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "CITY FALLS",
+    "icons": [
+     "building-castle",
+     "skull"
+    ],
+    "bg": "#6b2b2b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

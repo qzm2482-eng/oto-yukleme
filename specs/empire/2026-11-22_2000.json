@@ -1,0 +1,164 @@
+{
+ "topic": "Trojan Horse: would you open the gates? (myth, Aeneid book 2)",
+ "title_card": "TROY · THE WOODEN HORSE",
+ "beats": [
+  {
+   "text": "Troy, after ten years of war. You wake up, and the Greek army is gone.",
+   "keys": [
+    "Troy",
+    "ten",
+    "gone"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Giovanni Domenico Tiepolo - The Procession of the Trojan Horse in Troy - WGA22382.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "reveal": "iris",
+    "focus2": [
+     0.45,
+     0.5
+    ]
+   }
+  },
+  {
+   "text": "They left one thing on the beach: a giant wooden horse.",
+   "keys": [
+    "beach",
+    "wooden",
+    "horse"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "A GIFT?",
+    "icons": [
+     "horse-toy",
+     "gift"
+    ],
+    "bg": "#3a4a6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Before night, Troy must decide: bring it inside, or burn it.",
+   "keys": [
+    "night",
+    "inside",
+    "burn"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "determined",
+    "label": "BEFORE NIGHT",
+    "icons": [
+     "hourglass",
+     "flame"
+    ],
+    "bg": "#2f6b5a",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Warning one: the priest Laocoön strikes it with a spear. Sea serpents kill him.",
+   "keys": [
+    "Laocoön",
+    "spear",
+    "serpents"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Apollonio di Giovanni, Tod des Laokoon, Deckfarbenminiatur Florenz Riccardiana Cod. 492 fol. 78 v.png",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Warning two: Cassandra screams it's a trap. Nobody ever believes her.",
+   "keys": [
+    "Cassandra",
+    "trap"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Trojan horse MAN Napoli Inv120176.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.18
+    ],
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "You pull it in. At night, Greek soldiers climb out and open the gates.",
+   "keys": [
+    "soldiers",
+    "gates"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Frederik van Valckenborch - The Trojans celebrate the arrival of the wooden horse in the city.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.08,
+     1.22
+    ],
+    "reveal": "wipe",
+    "focus2": [
+     0.55,
+     0.5
+    ]
+   }
+  },
+  {
+   "text": "Troy burns before sunrise.",
+   "keys": [
+    "burns",
+    "sunrise"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "TROY FALLS",
+    "icons": [
+     "flame",
+     "skull"
+    ],
+    "bg": "#6b2b2b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

@@ -201,6 +201,8 @@ def mix_and_encode(frames_iter, n_frames, voice, bed, bed_db, sfx, out_mp4, voic
 
 # ---------------------------------------------------------------- word timing helpers
 def norm(w):
+    import unicodedata
+    w = unicodedata.normalize("NFKD", w).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]", "", w.lower())
 
 

@@ -1,0 +1,164 @@
+{
+ "topic": "Constantinople founded between Europe and Asia, 324-330 AD (remake of 'Why This City Ruled Two Worlds for 1000 Years')",
+ "title_card": "CONSTANTINOPLE · 330 AD",
+ "beats": [
+  {
+   "text": "324 AD. Emperor Constantine orders you to build Rome a new capital.",
+   "keys": [
+    "324",
+    "Constantine",
+    "capital"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Ivan Constantinovich Aivazovsky - Sunset over the Golden Horn.JPG",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "reveal": "iris",
+    "focus2": [
+     0.55,
+     0.5
+    ]
+   }
+  },
+  {
+   "text": "You pick an old Greek town, Byzantium, right between Europe and Asia.",
+   "keys": [
+    "Byzantium",
+    "Europe",
+    "Asia"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "determined",
+    "label": "EUROPE + ASIA",
+    "icons": [
+     "world",
+     "map"
+    ],
+    "bg": "#3a4a6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Six years later, it's Constantinople.",
+   "keys": [
+    "Six",
+    "Constantinople"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "happy",
+    "label": "330 AD",
+    "icons": [
+     "crown",
+     "calendar"
+    ],
+    "bg": "#2f6b5a",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Threat one: enemy fleets. But water guards three sides of your city.",
+   "keys": [
+    "fleets",
+    "water",
+    "three"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Map of Constantinople, Buondelmonti.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Threat two: ships in the harbour. A giant chain can close the Golden Horn.",
+   "keys": [
+    "chain",
+    "Golden",
+    "Horn"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:The Golden Horn by Théodore Gudin, 1851.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.08,
+     1.22
+    ],
+    "reveal": "iris",
+    "focus2": [
+     0.45,
+     0.5
+    ]
+   }
+  },
+  {
+   "text": "Threat three: armies by land. Later emperors add massive walls on that side.",
+   "keys": [
+    "land",
+    "walls"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Theodosian Walls in Constantinople 2.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.18
+    ],
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Your city rules two worlds for over 1,000 years.",
+   "keys": [
+    "two",
+    "1,000"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "1,000+ YEARS",
+    "icons": [
+     "building-castle",
+     "trophy"
+    ],
+    "bg": "#6b2b2b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

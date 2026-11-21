@@ -16,9 +16,14 @@ Format: topic — slot (Istanbul) — note. Specs (script + images) live in spec
 - Greek fire, Arab siege of Constantinople (670s) — 2026-11-21_2000
 - Medusa's island / Perseus (myth) — 2026-11-21_2300
 - Hannibal's elephants over the Alps, 218 BC — 2026-11-22_0200
+- Great Fire of London, Sept 1666 — 2026-11-22_1700
+- Trojan Horse: would you open the gates? (myth) — 2026-11-22_2000
+- Tenochtitlan when Cortés arrives, 1519-1521 — 2026-11-22_2300
+- Kublai Khan's fleet vs Japan 1281 (kamikaze) — 2026-11-23_0200
 ### remakes (IG + FB only, 13:00)
 - Theodosian walls ("Why No Army Could Break Constantinople's Walls", YT original ~1.3K views) — 2026-11-20_1300
 - Ötzi the Iceman ("Hikers Found Him in the Ice. He'd Been Dead 5,300 Years", YT original 1,150 views; kept the proven title) — 2026-11-21_1300
+- Constantinople founded between Europe and Asia, 324-330 ("Why This City Ruled Two Worlds for 1000 Years", YT original 1,346 views = Empire #1; kept the title) — 2026-11-22_1300
 
 ## oddy
 - Instant noodles per person (Vietnam 81)
@@ -35,15 +40,21 @@ Format: topic — slot (Istanbul) — note. Specs (script + images) live in spec
 - Costa Rica: no army since 1 Dec 1948 (vs Panama, Iceland, Liechtenstein) — 2026-11-21_2000
 - Iceland: first mosquitoes ever, Oct 2025 (myth-bust #2) — 2026-11-21_2300
 - Israel: most poultry per person, 58.5 kg (OECD-FAO 2018) — 2026-11-22_0200
+- Colombia rainiest country, 3,240 mm/yr (World Bank via Wikipedia list) — 2026-11-22_1700
+- Lesotho: highest lowest point, 1,400 m (> Ben Nevis 1,345) — 2026-11-22_2000
+- Australia wider than the Moon (~4,000 vs 3,475 km; myth-bust/space test #3, same 23:00 slot as Pluto) — 2026-11-22_2300
+- Pasta: Tunisia #2 after Italy (17 vs 23.5 kg, Euronews 2023 / EU pasta makers) — 2026-11-23_0200
 ### remakes (IG + FB only, 13:00)
 - USA toilet paper 141 rolls/person (YT original 1,284 views, channel #1) — 2026-11-20_1300
 - Most time online per day: South Africa 9h37 (Digital 2025) — remake of "Philippines internet capital" (YT 679). Hot dogs (#2) skipped: no reliable per-country table for the bar chart; chocolate/rice/Germany-zombie also lack clean data -> next remakes: sheep, languages (PNG), donuts only if a clean table is found. — 2026-11-21_1300
+- Papua New Guinea 840 languages (SIL 2024) — remake of "Why 7% of the World's Languages Are in One Country" (YT 498, best retention 58%); title corrected to "1 in 10" (840 of ~7,100). — 2026-11-22_1300
 
 ## Skipped / parked (and why)
 - Beer per capita (Czechia 148.8 L, Kirin 2024): could not verify the other countries' litres for the bar chart -> parked until a full table is found.
 - Coca-Cola per person (Mexico), cheese per person: sources disagree -> parked.
 - Plague doctor London 1665: beak mask is not documented for London 1665 (it is Italian/French) -> needs re-angle (e.g. Rome 1656) before making.
 - Hot dogs per country, chocolate per person: no reliable per-country table -> skipped as remakes.
+- Oldest population (Japan 65+ share): source pages blocked this run, not verified -> parked.
 - Japan vending machines: only the drink-machine count (1.95M, 2025) is solid; total count unclear -> parked.
 
 ## Learning log
@@ -65,3 +76,10 @@ Format: topic — slot (Istanbul) — note. Specs (script + images) live in spec
   Empire (mostly 22-31 s videos): avg viewed 64.7%. Winners: Ataturk "How One Man Built a Nation From Ashes in 5 Years" 100.2% at 0:51 (1,345 views, 3 subs = best sub converter), "They Rebuilt These Walls in 60 Days to Stop Attila" 115.6% (loops), Ötzi 71.4%. Long-form (15 min) 62 and 5 views -> long-form is dead for this channel, do not make any.
   Pattern: almost every Short stops at ~1,000-1,350 views = the feed's first test batch; none broke past it. To break out we need clearly higher retention + loops, not more topics.
   Actions: (1) Empire: aim 30-35 s (inside STYLE 30-45 s; old winners were 22-31 s, current renders ~44 s). Answer/payoff by ~15 s, last line loops back to the hook. (2) Titles: concrete human story + number ("in 60 Days", "5,300 Years", "in 5 Years") beat generic "Why X..." — use that title pattern. (3) ODDY: shorter cut (~30-35 s, reveal by ~12 s) proposed to owner because STYLE says 40-50 s — Owner approved 20 Nov -> ODDY now ~30-35 s (STYLE.md updated).
+- 2026-11-21 run (stats snapshot 21 Nov 07:xx UTC, 2nd day of data):
+  Saw: ODDY myth-bust "Pluto vs Russia" keeps growing (YT 439, IG 1,487 = best new video on both). Embalmer (02:00 slot, gross detail in title) YT 316, every other new Empire YT 1-21. Facebook: 0 plays on almost every reel on both pages (0-2) -> FB distribution is ~zero, nothing in code to fix (posts are published, copyright check clean).
+  IG Empire, same topic test: walls remake in new locked style 204 views vs old-style walls posts 1,484-1,689; all 10 new-style Empire IG posts 112-207 vs old-style median ~560 (many old ones 1,000-1,700). Hypothesis: on IG the new cartoon-narrator look itself underperforms (YT can't tell yet). Per rule, not switching; case written here for the 5 Dec review and flagged to owner.
+  YouTube Analytics API is DISABLED in the Google Cloud project (403 'has not been used in project 575710555122') -> no retention data. Owner must enable it (one click in console).
+  Tried: (1) ODDY myth-bust/space pattern again in Pluto's 23:00 slot (Australia wider than the Moon); hooks framed as "not X, not Y" (rain: not India/UK; pasta: #2 isn't in Europe). (2) Shorter cuts: ODDY 66-83 words -> 33-39 s (was 47-50 s), Empire 84-87 words -> 37-45 s (was 44-47). (3) Remakes: Empire #1 YT topic (Constantinople two worlds) with proven title; ODDY languages with retention-winner topic.
+  Fixed: common.norm() now strips accents (São Tomé cue matched 'Solomon' and the bar popped 6 s early); Empire cover band now opaque (caption text bled through).
+  Next: compare Australia-Moon vs Pluto at 23:00; if myth-bust/space keeps winning, make 1 per day. Watch whether 33-39 s ODDY raises YT views.

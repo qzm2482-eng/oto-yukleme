@@ -32,7 +32,7 @@ def empire(im, hook):
     im = im.resize((1080, 1920), Image.LANCZOS).convert("RGBA")
     # hide small caption under the screen: navy band, then hook text
     d = ImageDraw.Draw(im)
-    band = Image.new("RGBA", (1080, 330), (14, 18, 46, 235))
+    band = Image.new("RGBA", (1080, 330), (14, 18, 46, 255))
     im.alpha_composite(band, (0, 1135))
     lines = wrap(hook.upper())
     y = 1300 - (len(lines) - 1) * 70

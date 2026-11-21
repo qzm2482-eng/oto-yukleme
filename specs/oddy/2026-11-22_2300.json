@@ -1,0 +1,154 @@
+{
+ "topic": "Australia is wider than the Moon (~4,000 km vs 3,475 km)",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "One country is wider than the Moon. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "Wider than the Moon?",
+     "size": 66,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "moon",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#F2D9A0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · AUSTRALIA",
+   "text": "It's Australia. From east to west, it's almost 4,000 kilometres wide.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "au",
+     "name": "Australia",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "~4,000 km",
+     "unit": "east to west",
+     "y": 0.8,
+     "at": "4,000"
+    }
+   ]
+  },
+  {
+   "tag": "02 · THE MOON",
+   "text": "The Moon is only about 3,475 kilometres across.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "moon",
+     "size": 240,
+     "y": 0.1,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "big",
+     "s": "3,475 km",
+     "unit": "across",
+     "y": 0.8,
+     "at": "3,475"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "Pluto is about 2,380 kilometres wide. The Moon, 3,475. And Australia, almost 4,000.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "i:planet",
+       "Pluto",
+       2380
+      ],
+      [
+       "i:moon",
+       "Moon",
+       3475
+      ],
+      [
+       "au",
+       "Australia",
+       4000
+      ]
+     ],
+     "fmt": "{:,.0f}",
+     "unit": "",
+     "y": 0.12,
+     "ats": [
+      "Pluto",
+      "Moon",
+      "Australia"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · PLOT TWIST",
+   "text": "But the Moon's surface is still about five times bigger than Australia.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "planet",
+     "size": 240,
+     "y": 0.15,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "big",
+     "s": "x5",
+     "unit": "Moon surface vs Australia",
+     "y": 0.8,
+     "at": "five"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "au",
+      "nz",
+      "us",
+      "gb"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

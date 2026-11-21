@@ -1,0 +1,166 @@
+{
+ "topic": "Lesotho: highest lowest point of any country (1,400 m), enclaved by South Africa",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "In one country, even the lowest point is 1,400 metres above the sea. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "Lowest point: 1,400 m?",
+     "size": 66,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "mountain",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#DDE8C8"
+    }
+   ]
+  },
+  {
+   "tag": "01 · LESOTHO",
+   "text": "It's Lesotho, a small kingdom completely surrounded by South Africa.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "ls",
+     "name": "Lesotho",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "1,400 m",
+     "unit": "lowest point",
+     "y": 0.8,
+     "at": "surrounded"
+    }
+   ]
+  },
+  {
+   "tag": "02 · HIGHER THAN",
+   "text": "Its lowest spot is higher than Ben Nevis, the tallest mountain in the UK.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "gb",
+     "name": "Ben Nevis 1,345 m",
+     "y": 0.15,
+     "w": 260
+    },
+    {
+     "k": "big",
+     "s": "1,400 > 1,345",
+     "unit": "metres",
+     "y": 0.8,
+     "at": "Nevis"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "Uganda's lowest point is about 620 metres. Burundi, 770. Andorra, 840. Rwanda, 950. Lesotho, 1,400.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "ug",
+       "Uganda",
+       621
+      ],
+      [
+       "bi",
+       "Burundi",
+       772
+      ],
+      [
+       "ad",
+       "Andorra",
+       840
+      ],
+      [
+       "rw",
+       "Rwanda",
+       950
+      ],
+      [
+       "ls",
+       "Lesotho",
+       1400
+      ]
+     ],
+     "fmt": "{:,.0f}",
+     "unit": "",
+     "y": 0.12,
+     "ats": [
+      "Uganda",
+      "Burundi",
+      "Andorra",
+      "Rwanda",
+      "Lesotho"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · TAKEAWAY",
+   "text": "No wonder people call it the Kingdom in the Sky.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "crown",
+     "size": 260,
+     "y": 0.2,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "text",
+     "s": "Kingdom in the Sky",
+     "size": 66,
+     "y": 0.85,
+     "at": "Kingdom"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "ls",
+      "za",
+      "rw",
+      "ad"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}
