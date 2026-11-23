@@ -76,3 +76,5 @@ KONU #34 — STS-41B: ilk bağsız uzay yürüyüşü, McCandless (7 Şubat 1984
 KONU #35 — Gemini 4: Ed White'ın ilk ABD uzay yürüyüşü ve zorlu kapak kapatma (3 Haziran 1965) — başlık fikri: "He Didn't Want the First Spacewalk to End" — hook: "Twenty minutes outside. Then the hatch." (H1; 20 dk EVA, kapı kilidi zor kapandı, oksijen tabancası HHMU; Apollo 1'e değinilmez) — foto ön kontrol: 13 temiz (S65-34635, S65-30273, S65-30202, S65-30272, S65-30271, S65-30428, S65-30430, s65-30432, s65-30433, S65-29766, S65-29730, s65-30427, s65-04896) — ana kaynak: NASA History SP-4203 (Gemini IV) + NASA Gemini IV özeti
 
 KONU #24 — STS-61 Hubble onarımı — YAPILDI 2026-11-23 — Uzay Ajanı PASS (2 tur) — not: 45,32 sn, 125 kelime, 11 kare; ESA/Canada işaretleri bulanıklaştırıldı
+
+KONU #25 — Skylab parasol kurtarması — YAPILDI 2026-11-23 — "How a Parasol Saved a Broken Space Station  (42 karakter)" — Uzay Ajanı PASS (1 tur) — not: 45,22 sn, 119 kelime, 11 kare
