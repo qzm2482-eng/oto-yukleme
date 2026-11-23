@@ -78,3 +78,5 @@ KONU #35 — Gemini 4: Ed White'ın ilk ABD uzay yürüyüşü ve zorlu kapak ka
 KONU #24 — STS-61 Hubble onarımı — YAPILDI 2026-11-23 — Uzay Ajanı PASS (2 tur) — not: 45,32 sn, 125 kelime, 11 kare; ESA/Canada işaretleri bulanıklaştırıldı
 
 KONU #25 — Skylab parasol kurtarması — YAPILDI 2026-11-23 — "How a Parasol Saved a Broken Space Station  (42 karakter)" — Uzay Ajanı PASS (1 tur) — not: 45,22 sn, 119 kelime, 11 kare
+
+KONU #26 — Gemini 6A fırlatma iptali — YAPILDI 2026-11-23 — "The Astronaut Who Chose Not to Eject  (36 karakter)" — Uzay Ajanı PASS (2 tur) — not: 43,17 sn, 114 kelime, 11 kare; 1,2 sn yalnız fişin düşmesine bağlı
