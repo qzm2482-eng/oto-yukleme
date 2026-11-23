@@ -37,3 +37,5 @@ KONU #17 — Ay dönüşü karantinası (Apollo 11) — YAPILDI 2026-11-23 — "
 KONU #18 — Mars "Yüz" (Viking 1, 1976) — YAPILDI 2026-11-23 — "What NASA Really Photographed on Mars in 1976  (45 karakter)" — Uzay Ajanı PASS (2 tur) — not: 43,88 sn, 111 kelime, 9 kare; Viking/MGS/HiRISE NASA görselleri serbest sayıldı
 
 KONU #19 — Apollo 17 turuncu toprak — ATLANDI 2026-11-23 — görsel yok (images.nasa.gov üzerinde 6 temiz PD foto, şart en az 8)
+
+KONU #20 — Pioneer plaketi — YAPILDI 2026-11-23 — "What Pioneer 10's Plaque Tells Aliens About Earth  (49 karakter)" — Uzay Ajanı PASS (2 tur) — not: 45,54 sn, 116 kelime, 11 kare; TRW kredili foto çıkarıldı
