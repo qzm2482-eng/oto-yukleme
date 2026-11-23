@@ -80,3 +80,5 @@ KONU #24 — STS-61 Hubble onarımı — YAPILDI 2026-11-23 — Uzay Ajanı PASS
 KONU #25 — Skylab parasol kurtarması — YAPILDI 2026-11-23 — "How a Parasol Saved a Broken Space Station  (42 karakter)" — Uzay Ajanı PASS (1 tur) — not: 45,22 sn, 119 kelime, 11 kare
 
 KONU #26 — Gemini 6A fırlatma iptali — YAPILDI 2026-11-23 — "The Astronaut Who Chose Not to Eject  (36 karakter)" — Uzay Ajanı PASS (2 tur) — not: 43,17 sn, 114 kelime, 11 kare; 1,2 sn yalnız fişin düşmesine bağlı
+
+KONU #27 — STS-49 Intelsat VI elle yakalama — YAPILDI 2026-11-23 — "Three Astronauts Caught a Satellite by Hand  (43 karakter)" — Uzay Ajanı PASS (2 tur) — not: 43,29 sn, 121 kelime, 11 kare; yakalama 3. EVA; Thuot telaffuzu TTS sınırında
