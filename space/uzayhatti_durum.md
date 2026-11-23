@@ -82,3 +82,5 @@ KONU #25 — Skylab parasol kurtarması — YAPILDI 2026-11-23 — "How a Paraso
 KONU #26 — Gemini 6A fırlatma iptali — YAPILDI 2026-11-23 — "The Astronaut Who Chose Not to Eject  (36 karakter)" — Uzay Ajanı PASS (2 tur) — not: 43,17 sn, 114 kelime, 11 kare; 1,2 sn yalnız fişin düşmesine bağlı
 
 KONU #27 — STS-49 Intelsat VI elle yakalama — YAPILDI 2026-11-23 — "Three Astronauts Caught a Satellite by Hand  (43 karakter)" — Uzay Ajanı PASS (2 tur) — not: 43,29 sn, 121 kelime, 11 kare; yakalama 3. EVA; Thuot telaffuzu TTS sınırında
+
+KONU #28 — Faith 7, Cooper elle yeniden giriş — YAPILDI 2026-11-23 — "How Gordon Cooper Reentered by Hand  (35 karakter)" — Uzay Ajanı PASS (1 tur) — not: 44,44 sn, 124 kelime, 12 kare; kuyruk fikrindeki kol saati/tüm aletler bozuldu iddiaları kaynaksız, kullanılmadı
