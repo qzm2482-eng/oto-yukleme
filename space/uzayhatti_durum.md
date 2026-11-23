@@ -33,3 +33,5 @@ KONU #15 — Opportunity gezgini: 90 gün, 15 yıl — YAPILDI 2026-11-23 — "H
 KONU #16 — Voyager Altın Plak — YAPILDI 2026-11-23 — "What NASA Put on a Gold Record for Aliens in 1977  (49 karakter)" — Uzay Ajanı PASS (2 tur) — not: 51,76 sn, 122 kelime, 11 kare
 
 KONU #17 — Ay dönüşü karantinası (Apollo 11) — YAPILDI 2026-11-23 — "The Trailer That Quarantined the First Men on the Moon  (54 karakter)" — Uzay Ajanı PASS (2 tur) — not: 45,81 sn, 12 kare; "21 days" plan olarak, "awaited" ifadesiyle
+
+KONU #18 — Mars "Yüz" (Viking 1, 1976) — YAPILDI 2026-11-23 — "What NASA Really Photographed on Mars in 1976  (45 karakter)" — Uzay Ajanı PASS (2 tur) — not: 43,88 sn, 111 kelime, 9 kare; Viking/MGS/HiRISE NASA görselleri serbest sayıldı
