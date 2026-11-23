@@ -39,3 +39,5 @@ KONU #18 — Mars "Yüz" (Viking 1, 1976) — YAPILDI 2026-11-23 — "What NASA 
 KONU #19 — Apollo 17 turuncu toprak — ATLANDI 2026-11-23 — görsel yok (images.nasa.gov üzerinde 6 temiz PD foto, şart en az 8)
 
 KONU #20 — Pioneer plaketi — YAPILDI 2026-11-23 — "What Pioneer 10's Plaque Tells Aliens About Earth  (49 karakter)" — Uzay Ajanı PASS (2 tur) — not: 45,54 sn, 116 kelime, 11 kare; TRW kredili foto çıkarıldı
+
+KONU #21 — Surveyor 3 parçaları (Apollo 12) — YAPILDI 2026-11-23 — "Apollo 12 Took Parts From a Spacecraft Already on the Moon  (58 karakter)" — Uzay Ajanı PASS (2 tur) — not: 43,22 sn, 119 kelime, 12 kare; tarihler yalnız ay/yıl
