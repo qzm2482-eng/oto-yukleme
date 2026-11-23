@@ -1,0 +1,171 @@
+{
+ "topic": "Odysseus in the Cyclops' cave",
+ "title_card": "THE ODYSSEY · GREEK MYTH",
+ "beats": [
+  {
+   "text": "Greek myth. You sail with Odysseus, and you just walked into a giant's cave.",
+   "keys": [
+    "Odysseus",
+    "giant's"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Turner - Ulysses deriding Polyphemus 1829.jpg",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "zoom": [
+     1.15,
+     1.3
+    ],
+    "focus2": [
+     0.5,
+     0.45
+    ]
+   }
+  },
+  {
+   "text": "Then the Cyclops Polyphemus comes home, and rolls a huge boulder over the door.",
+   "keys": [
+    "Polyphemus",
+    "boulder"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "TRAPPED",
+    "icons": [
+     "mountain",
+     "eye"
+    ],
+    "bg": "#5a3a22",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "He grabs two of your crewmates and eats them. Then two more.",
+   "keys": [
+    "two"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "TWO MORE",
+    "icons": [
+     "skull",
+     "users"
+    ],
+    "bg": "#7a2e2e",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Odysseus gets him drunk on strong wine, and says his name is Nobody.",
+   "keys": [
+    "wine",
+    "Nobody"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "aic:476248bf-d527-2ee0-e56f-de572f1db198",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "While he sleeps, you drive a burning stake into his only eye.",
+   "keys": [
+    "burning",
+    "eye"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "determined",
+    "label": "ONE EYE",
+    "icons": [
+     "flame",
+     "eye"
+    ],
+    "bg": "#8a3b2f",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "He screams for help: Nobody is hurting me! So nobody comes.",
+   "keys": [
+    "Nobody",
+    "nobody"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "happy",
+    "label": "NOBODY",
+    "icons": [
+     "question-mark",
+     "users"
+    ],
+    "bg": "#2f6b5a",
+    "reveal": "fade"
+   }
+  },
+  {
+   "text": "At dawn, you escape tied under the bellies of his sheep.",
+   "keys": [
+    "sheep"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Ulysse s'échappant caché sous un mouton (Torlonia).jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.2
+    ],
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "But Odysseus shouts his real name. And the Cyclops' father is Poseidon.",
+   "keys": [
+    "real",
+    "Poseidon"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "aic:60cc0241-91b9-8693-f883-b86543a2c5e9",
+    "focus": [
+     0.6,
+     0.4
+    ],
+    "zoom": [
+     1.2,
+     1.35
+    ],
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

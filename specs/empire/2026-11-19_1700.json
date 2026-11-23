@@ -1,0 +1,205 @@
+{
+ "topic": "Thermopylae 480 BC (300 Spartans)",
+ "title_card": "THERMOPYLAE · 480 BC",
+ "beats": [
+  {
+   "text": "It's 480 BC. You're one of 300 Spartans, and 100,000 Persians are coming.",
+   "keys": [
+    "480",
+    "300",
+    "Spartans",
+    "100,000"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Archers_frieze_Darius_1st_Palace_Suse_Louvre_AOD_488_a.jpg/1280px-Archers_frieze_Darius_1st_Palace_Suse_Louvre_AOD_488_a.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "focus2": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.15
+    ]
+   }
+  },
+  {
+   "text": "Your job: hold the narrow pass at Thermopylae,",
+   "keys": [
+    "hold",
+    "Thermopylae"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Thermopylae-Air-View.jpg/1920px-Thermopylae-Air-View.jpg",
+    "reveal": "wipe",
+    "focus": [
+     0.4,
+     0.5
+    ],
+    "focus2": [
+     0.55,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ]
+   }
+  },
+  {
+   "text": "long enough for Greece to get ready.",
+   "keys": [
+    "Greece"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "determined",
+    "label": "HOLD THE PASS",
+    "icons": [
+     "shield",
+     "swords"
+    ],
+    "bg": "#2f4a8a",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "First, arrows. They say Persian arrows will blot out the sun.",
+   "keys": [
+    "arrows",
+    "sun"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "ARROWS",
+    "icons": [
+     "sun",
+     "eye"
+    ],
+    "bg": "#8a3b2f",
+    "reveal": "fade"
+   }
+  },
+  {
+   "text": "A Spartan laughs: then we fight in the shade.",
+   "keys": [
+    "laughs",
+    "shade"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Terracotta_psykter_%28vase_for_cooling_wine%29_MET_DP160649.jpg/1920px-Terracotta_psykter_%28vase_for_cooling_wine%29_MET_DP160649.jpg",
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Then the Immortals, the king's ten thousand best men.",
+   "keys": [
+    "Immortals",
+    "ten",
+    "thousand"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Archers_frieze_Louvre_AOD488.jpg/1280px-Archers_frieze_Louvre_AOD488.jpg",
+    "reveal": "iris",
+    "focus": [
+     0.45,
+     0.5
+    ],
+    "zoom": [
+     1.2,
+     1.35
+    ]
+   }
+  },
+  {
+   "text": "But the pass is so narrow, numbers barely matter. You hold for two days.",
+   "keys": [
+    "narrow",
+    "two",
+    "days"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "happy",
+    "label": "DAY 2",
+    "icons": [
+     "shield",
+     "trophy"
+    ],
+    "bg": "#2f6b5a",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Then a Greek traitor shows the Persians a hidden mountain path.",
+   "keys": [
+    "traitor",
+    "hidden",
+    "path"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "BETRAYED",
+    "icons": [
+     "mountain",
+     "map"
+    ],
+    "bg": "#5a2f7a",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "By morning on day three, they're coming up behind you.",
+   "keys": [
+    "three",
+    "behind"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/db/Lancer_Susa_Louvre_Sb21965.jpg",
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Leonidas sends most Greeks home. You stay.",
+   "keys": [
+    "Leonidas",
+    "stay"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vase_with_hoplites_fighting-MAHG_MF_237-P6130550-black.jpg/1280px-Vase_with_hoplites_fighting-MAHG_MF_237-P6130550-black.jpg",
+    "reveal": "wipe",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.2
+    ]
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

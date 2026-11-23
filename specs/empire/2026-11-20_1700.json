@@ -1,0 +1,175 @@
+{
+ "topic": "Inside Constantinople, 29 May 1453",
+ "title_card": "CONSTANTINOPLE · 1453",
+ "beats": [
+  {
+   "text": "May 29, 1453. You're inside Constantinople, and the Ottoman army is at the walls.",
+   "keys": [
+    "1453",
+    "Constantinople",
+    "Ottoman"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Conquest of Constantinople, Zonaro.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "focus2": [
+     0.45,
+     0.45
+    ]
+   }
+  },
+  {
+   "text": "You're one of about 7,000 defenders. The army outside is many times bigger.",
+   "keys": [
+    "7,000",
+    "bigger"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "7,000 DEFENDERS",
+    "icons": [
+     "shield",
+     "users"
+    ],
+    "bg": "#2f4a8a",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "For 53 days, giant cannons have pounded walls that stood for a thousand years.",
+   "keys": [
+    "53",
+    "cannons"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Theodosian Walls in Constantinople 2.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.2
+    ],
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "The sultan, Mehmed, is only 21.",
+   "keys": [
+    "Mehmed",
+    "21"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Bellini, Gentile - Portrait of Mehmed II - National Gallery, London.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "He even dragged his ships over a hill, into the harbor you thought was safe.",
+   "keys": [
+    "ships",
+    "hill",
+    "harbor"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "SHIPS OVER A HILL",
+    "icons": [
+     "ship",
+     "mountain"
+    ],
+    "bg": "#2f4a8a",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Before dawn, the final attack. Wave after wave hits the walls.",
+   "keys": [
+    "final",
+    "Wave"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "FINAL ASSAULT",
+    "icons": [
+     "swords",
+     "flame"
+    ],
+    "bg": "#7a2e2e",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Your best commander, Giustiniani, is wounded and carried away. Panic spreads.",
+   "keys": [
+    "Giustiniani",
+    "Panic"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "COMMANDER DOWN",
+    "icons": [
+     "shield",
+     "skull"
+    ],
+    "bg": "#5a2f7a",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Emperor Constantine the Eleventh charges into the fight. His body is never identified.",
+   "keys": [
+    "Constantine",
+    "never"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Konstantinos XI Palaiologos fresco (edit).jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

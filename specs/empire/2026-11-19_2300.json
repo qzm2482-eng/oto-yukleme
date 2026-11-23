@@ -1,0 +1,168 @@
+{
+ "topic": "Minotaur's Labyrinth (Greek myth)",
+ "title_card": "CRETE · GREEK MYTH",
+ "beats": [
+  {
+   "text": "Greek myth, Crete. You're one of fourteen young Athenians, sent as tribute to King Minos.",
+   "keys": [
+    "Crete",
+    "fourteen",
+    "Minos"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:George Frederic Watts - The Minotaur - Google Art Project.jpg",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ]
+   }
+  },
+  {
+   "text": "Tonight, they lock you inside the Labyrinth.",
+   "keys": [
+    "Labyrinth"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "THE LABYRINTH",
+    "icons": [
+     "map",
+     "question-mark"
+    ],
+    "bg": "#3a2f6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Daedalus built it so twisted that even he could barely find the way out.",
+   "keys": [
+    "Daedalus"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Edward Burne-Jones - Tile Design - Theseus and the Minotaur in the Labyrinth - Google Art Project.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "And somewhere in the dark lives the Minotaur, half man, half bull.",
+   "keys": [
+    "Minotaur",
+    "bull"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:George Frederic Watts - The Minotaur - Google Art Project.jpg",
+    "focus": [
+     0.45,
+     0.3
+    ],
+    "zoom": [
+     1.5,
+     1.7
+    ],
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "It feeds on the Athenians sent to Crete.",
+   "keys": [
+    "feeds"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "NO WAY OUT",
+    "icons": [
+     "skull",
+     "eye"
+    ],
+    "bg": "#6b2f2f",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Your only hope walks beside you, the prince Theseus.",
+   "keys": [
+    "Theseus"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Giovanni Battista Cima da Conegliano - Theseus Killing the Minotaur - Google Art Project.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Princess Ariadne gave him a ball of thread. Tie it at the door, unroll it as you go.",
+   "keys": [
+    "Ariadne",
+    "thread"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Theseus en Ariadne Metamorfosen van Ovidius (serietitel), RP-P-OB-15.870.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Lose the thread, and you wander the dark until it finds you.",
+   "keys": [
+    "thread",
+    "finds"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "DON'T LOSE IT",
+    "icons": [
+     "hourglass",
+     "eye"
+    ],
+    "bg": "#2b3a6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

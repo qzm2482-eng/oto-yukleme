@@ -1,0 +1,174 @@
+{
+ "topic": "Greek fire, Arab siege of Constantinople (670s)",
+ "title_card": "CONSTANTINOPLE · 670s",
+ "beats": [
+  {
+   "text": "Constantinople, the 670s. You're a sailor in the Arab fleet, attacking the city.",
+   "keys": [
+    "Constantinople",
+    "670s",
+    "Arab"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "aic:580d472e-c401-20eb-baeb-5168832a6235",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.15,
+     1.3
+    ],
+    "reveal": "iris",
+    "focus2": [
+     0.42,
+     0.5
+    ],
+    "crop": [
+     0.04,
+     0.14,
+     0.96,
+     0.8
+    ]
+   }
+  },
+  {
+   "text": "Your fleet is huge. The city's sea walls are right in front of you.",
+   "keys": [
+    "huge",
+    "walls"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "determined",
+    "label": "THE ATTACK",
+    "icons": [
+     "ship",
+     "wall"
+    ],
+    "bg": "#3a4a6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Then a Byzantine ship comes close. A bronze tube points straight at you.",
+   "keys": [
+    "Byzantine",
+    "bronze",
+    "tube"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "THE SIPHON",
+    "icons": [
+     "flame",
+     "eye"
+    ],
+    "bg": "#4a3a22",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Out sprays liquid fire. Greek fire, invented by an architect named Kallinikos.",
+   "keys": [
+    "fire",
+    "Greek",
+    "Kallinikos"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Greekfire-madridskylitzes1.jpg",
+    "focus": [
+     0.62,
+     0.5
+    ],
+    "zoom": [
+     1.25,
+     1.4
+    ],
+    "focus2": [
+     0.55,
+     0.5
+    ],
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Danger one: it burns on water. Jumping into the sea won't save you.",
+   "keys": [
+    "water",
+    "sea"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "FIRE ON WATER",
+    "icons": [
+     "flame",
+     "ripple"
+    ],
+    "bg": "#6b2b2b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Danger two: water won't stop it. Medieval writers said only sand, vinegar or urine works.",
+   "keys": [
+    "sand",
+    "vinegar",
+    "urine"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "NO WATER!",
+    "icons": [
+     "droplet-off",
+     "flask"
+    ],
+    "bg": "#5a4a22",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "The recipe was a state secret. Today, nobody knows how it was made.",
+   "keys": [
+    "secret",
+    "nobody"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "aic:7740453e-92eb-ee92-dd05-ed3bfc1f206f",
+    "crop": [
+     0.0,
+     0.0,
+     0.5,
+     1.0
+    ],
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.85,
+     2.0
+    ],
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

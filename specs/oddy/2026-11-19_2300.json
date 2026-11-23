@@ -1,0 +1,204 @@
+{
+ "topic": "Pluto vs Russia (myth busted)",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "You've probably heard Russia is bigger than Pluto. That's actually wrong. So which one is bigger?",
+   "items": [
+    {
+     "k": "text",
+     "s": "Russia bigger than Pluto?",
+     "size": 70,
+     "y": 0.0
+    },
+    {
+     "k": "flag",
+     "cc": "ru",
+     "w": 220,
+     "x": 0.28,
+     "y": 0.55
+    },
+    {
+     "k": "icon",
+     "name": "planet",
+     "size": 240,
+     "x": 0.74,
+     "y": 0.55,
+     "accent": "#E8D3B8"
+    },
+    {
+     "k": "text",
+     "s": "Myth!",
+     "size": 90,
+     "y": 0.98,
+     "color": "terra",
+     "at": "wrong"
+    }
+   ]
+  },
+  {
+   "tag": "01 · PLUTO",
+   "text": "In 2015, NASA's New Horizons probe measured Pluto properly. Its surface is about 17.7 million square kilometers.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "planet",
+     "size": 300,
+     "y": 0.15,
+     "accent": "#E8D3B8"
+    },
+    {
+     "k": "big",
+     "s": "17.7M sq km",
+     "unit": "Pluto's surface",
+     "y": 0.8,
+     "at": "17.7"
+    }
+   ]
+  },
+  {
+   "tag": "02 · RUSSIA",
+   "text": "Russia, the biggest country on Earth, covers about 17.1 million.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "ru",
+     "name": "Russia",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "17.1M sq km",
+     "unit": "Russia's area",
+     "y": 0.78,
+     "at": "17.1"
+    }
+   ]
+  },
+  {
+   "tag": "03 · HEAD TO HEAD",
+   "text": "China, 9.6. The USA, 9.8. Canada, 10. Russia, 17.1. And Pluto, 17.7. Pluto wins by about the size of France.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "cn",
+       "China",
+       9.6
+      ],
+      [
+       "us",
+       "USA",
+       9.8
+      ],
+      [
+       "ca",
+       "Canada",
+       10.0
+      ],
+      [
+       "ru",
+       "Russia",
+       17.1
+      ],
+      [
+       "i:planet",
+       "Pluto",
+       17.7
+      ]
+     ],
+     "fmt": "{:.1f}",
+     "unit": "M",
+     "y": 0.12,
+     "ats": [
+      "China",
+      "USA",
+      "Canada",
+      "Russia",
+      "Pluto"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "But Russia still wins one thing. It's about 9,000 kilometers wide, and Pluto is only 2,377 kilometers across.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "ruler-measure",
+     "size": 200,
+     "y": 0.0,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "big",
+     "s": "9,000 km",
+     "unit": "Russia, end to end",
+     "y": 0.45,
+     "at": "9,000"
+    },
+    {
+     "k": "text",
+     "s": "Pluto: 2,377 km across",
+     "size": 60,
+     "y": 0.95,
+     "at": "2,377"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "Bigger area? Pluto. Wider? Russia.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "planet",
+     "size": 300,
+     "y": 0.25,
+     "accent": "#E8D3B8"
+    },
+    {
+     "k": "text",
+     "s": "Area: Pluto · Width: Russia",
+     "size": 62,
+     "y": 0.85,
+     "at": "Wider"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "ca",
+      "cn",
+      "us",
+      "br"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

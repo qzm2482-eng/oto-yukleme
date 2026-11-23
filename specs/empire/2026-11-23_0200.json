@@ -1,0 +1,162 @@
+{
+ "topic": "Kublai Khan's fleet vs Japan, 1281 (kamikaze typhoon)",
+ "title_card": "JAPAN · 1281",
+ "beats": [
+  {
+   "text": "1281. You're a soldier in Kublai Khan's fleet, sailing to conquer Japan.",
+   "keys": [
+    "1281",
+    "Kublai",
+    "Japan"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Samurai Takezaki Suenaga detail Mōko Shūrai Ekotoba.jpg",
+    "focus": [
+     0.5,
+     0.45
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "reveal": "iris",
+    "focus2": [
+     0.5,
+     0.5
+    ]
+   }
+  },
+  {
+   "text": "Over 4,000 ships, one of history's biggest fleets.",
+   "keys": [
+    "4,000",
+    "biggest"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "determined",
+    "label": "4,000+ SHIPS",
+    "icons": [
+     "ship",
+     "users"
+    ],
+    "bg": "#3a4a6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Your goal: land at Hakata Bay and take the island.",
+   "keys": [
+    "Hakata",
+    "island"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Mōko Shūrai Ekotoba Mongol Invasion Mitsui Sukenaga.jpg",
+    "focus": [
+     0.3,
+     0.5
+    ],
+    "zoom": [
+     1.15,
+     1.3
+    ],
+    "reveal": "wipe",
+    "focus2": [
+     0.45,
+     0.5
+    ]
+   }
+  },
+  {
+   "text": "Danger one: a new stone wall now lines the beach.",
+   "keys": [
+    "stone",
+    "wall"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "STONE WALL",
+    "icons": [
+     "wall",
+     "shield"
+    ],
+    "bg": "#3a4a6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Danger two: samurai row out at night and raid your ships.",
+   "keys": [
+    "samurai",
+    "night"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Mōko Shūrai Ekotoba e14.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Danger three: many ships are rushed river boats, with flat hulls.",
+   "keys": [
+    "river",
+    "flat"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "FLAT HULLS",
+    "icons": [
+     "ship",
+     "ripple"
+    ],
+    "bg": "#2b4a6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Then a typhoon hits and wrecks the fleet. Japan calls it kamikaze, the divine wind.",
+   "keys": [
+    "typhoon",
+    "kamikaze",
+    "divine"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Kikuchi Yoosai - Mongol Invasion (mōko shūrai) - Tokyo National Museum.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.18
+    ],
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

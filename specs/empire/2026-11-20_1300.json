@@ -1,0 +1,179 @@
+{
+ "topic": "REMAKE: Theodosian walls of Constantinople",
+ "platforms": [
+  "instagram",
+  "facebook"
+ ],
+ "title_card": "CONSTANTINOPLE · 5TH CENTURY",
+ "beats": [
+  {
+   "text": "It's the 400s AD. You command an army, and your target is Constantinople, capital of the Eastern Roman Empire.",
+   "keys": [
+    "400s",
+    "Constantinople",
+    "Eastern"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Theodosian Walls in Constantinople 4.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "focus2": [
+     0.55,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.2
+    ]
+   }
+  },
+  {
+   "text": "Your one job: break through its land walls.",
+   "keys": [
+    "break",
+    "walls"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "determined",
+    "label": "BREAK THE WALLS",
+    "icons": [
+     "wall",
+     "swords"
+    ],
+    "bg": "#7a2e2e",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "First, a moat about 20 meters wide.",
+   "keys": [
+    "moat",
+    "20"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "20 M MOAT",
+    "icons": [
+     "droplets",
+     "wall"
+    ],
+    "bg": "#2f4a8a",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Then an outer wall, with its own towers.",
+   "keys": [
+    "outer",
+    "towers"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Theodosian Walls in Constantinople 2.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.18
+    ],
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Then the inner wall, about 12 meters high, with 96 huge towers.",
+   "keys": [
+    "12",
+    "96"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Walls of Constantinople 1.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Archers hit you from both walls at once.",
+   "keys": [
+    "both"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "ARROWS FROM 2 WALLS",
+    "icons": [
+     "shield",
+     "tower"
+    ],
+    "bg": "#5a2f7a",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "In 447, an earthquake knocked parts down, with Attila the Hun on the way. The city rebuilt them in about 60 days.",
+   "keys": [
+    "447",
+    "Attila",
+    "60"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "REBUILT IN 60 DAYS",
+    "icons": [
+     "wall",
+     "hourglass"
+    ],
+    "bg": "#2f4a8a",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "For about a thousand years, no army broke through these land walls, until the Ottomans came with giant cannons in 1453.",
+   "keys": [
+    "thousand",
+    "cannons",
+    "1453"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Theodosian Walls in Constantinople 3.jpg",
+    "reveal": "iris",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.2
+    ]
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

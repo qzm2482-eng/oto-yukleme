@@ -1,0 +1,166 @@
+{
+ "topic": "Colombia: rainiest country, 3,240 mm/yr (World Bank, via Wikipedia list)",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "The rainiest country on Earth isn't India or the UK. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "Not India. Not the UK.",
+     "size": 66,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "cloud-rain",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#CFE3E0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · COLOMBIA",
+   "text": "It's Colombia. On average, about 3,240 millimetres of rain falls there every year.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "co",
+     "name": "Colombia",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "3,240 mm",
+     "unit": "of rain / year",
+     "y": 0.8,
+     "at": "3,240"
+    }
+   ]
+  },
+  {
+   "tag": "02 · HOW DEEP?",
+   "text": "That's over three metres of water. Higher than a basketball hoop.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "ball-basketball",
+     "size": 230,
+     "y": 0.1,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "big",
+     "s": "3.2 m",
+     "unit": "deep, every year",
+     "y": 0.8,
+     "at": "three"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "Panama gets about 2,930. Solomon Islands, 3,030. Papua New Guinea, 3,140. São Tomé, 3,200. And Colombia tops them all.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "pa",
+       "Panama",
+       2928
+      ],
+      [
+       "sb",
+       "Solomon Is.",
+       3028
+      ],
+      [
+       "pg",
+       "PNG",
+       3142
+      ],
+      [
+       "st",
+       "São Tomé",
+       3200
+      ],
+      [
+       "co",
+       "Colombia",
+       3240
+      ]
+     ],
+     "fmt": "{:,.0f}",
+     "unit": "",
+     "y": 0.12,
+     "ats": [
+      "Panama",
+      "Solomon",
+      "Papua",
+      "São",
+      "Colombia"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · WHY",
+   "text": "Wet ocean air hits the Andes mountains, cools down, and drops its rain.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "umbrella",
+     "size": 260,
+     "y": 0.2,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "text",
+     "s": "Ocean air + the Andes",
+     "size": 64,
+     "y": 0.85,
+     "at": "Andes"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "co",
+      "pa",
+      "pg",
+      "st"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "topic": "Hannibal's elephants over the Alps, 218 BC",
+ "title_card": "THE ALPS · 218 BC",
+ "beats": [
+  {
+   "text": "218 BC. You're in Hannibal's army, about to march war elephants over the Alps.",
+   "keys": [
+    "218",
+    "Hannibal's",
+    "elephants",
+    "Alps"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Heinrich Leutemann - Hannibals Übergang über die Alpen.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.15,
+     1.3
+    ],
+    "reveal": "iris",
+    "focus2": [
+     0.45,
+     0.5
+    ]
+   }
+  },
+  {
+   "text": "Hannibal wants to hit Rome from the north, where nobody expects him.",
+   "keys": [
+    "Rome",
+    "north"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "determined",
+    "label": "TARGET: ROME",
+    "icons": [
+     "map",
+     "sword"
+    ],
+    "bg": "#3a4a6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "You have 15 days to cross, with 37 elephants.",
+   "keys": [
+    "15",
+    "37"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "37 ELEPHANTS",
+    "icons": [
+     "mountain",
+     "clock"
+    ],
+    "bg": "#2f6b5a",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Danger one: mountain tribes. They attack and roll rocks down on you.",
+   "keys": [
+    "tribes",
+    "rocks"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Hannibal traversant les Alpes à dos d'éléphant - Nicolas Poussin.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Danger two: snow. It's late in the year. The path is icy and steep.",
+   "keys": [
+    "snow",
+    "icy"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "SNOW",
+    "icons": [
+     "snowflake",
+     "temperature-minus"
+    ],
+    "bg": "#2b4a6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Danger three: the cliffs. Men and animals slip and fall to their deaths.",
+   "keys": [
+    "cliffs",
+    "fall"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Hannibal crossing the Alps into Italy.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.05,
+     1.2
+    ],
+    "focus2": [
+     0.55,
+     0.5
+    ],
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "You make it. But only 20,000 foot soldiers and 6,000 riders reach Italy.",
+   "keys": [
+    "20,000",
+    "6,000",
+    "Italy"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "26,000 LEFT",
+    "icons": [
+     "users",
+     "skull"
+    ],
+    "bg": "#6b2b2b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "topic": "Most time online per day (remake of Philippines internet capital)",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "One country spends over nine and a half hours online, every single day. And it's not the Philippines anymore. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "9.5 hours online a day?",
+     "size": 70,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "wifi",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#CFE3E0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · SOUTH AFRICA",
+   "text": "It's South Africa. The average internet user there is online for 9 hours and 37 minutes a day.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "za",
+     "name": "South Africa",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "9h 37m",
+     "unit": "online per day",
+     "y": 0.8,
+     "at": "9"
+    }
+   ]
+  },
+  {
+   "tag": "02 · PER YEAR",
+   "text": "Add that up, and it's about 146 full days a year in front of a screen.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "device-mobile",
+     "size": 260,
+     "y": 0.1,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "big",
+     "s": "146 days",
+     "unit": "online every year",
+     "y": 0.8,
+     "at": "146"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "Argentina and Chile sit close together. The Philippines, the old champion, is third. Brazil is second. And South Africa wins. By almost half an hour.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "ar",
+       "Argentina",
+       8.73
+      ],
+      [
+       "cl",
+       "Chile",
+       8.75
+      ],
+      [
+       "ph",
+       "Philippines",
+       8.87
+      ],
+      [
+       "br",
+       "Brazil",
+       9.15
+      ],
+      [
+       "za",
+       "South Africa",
+       9.62
+      ]
+     ],
+     "fmt": "{:.1f}",
+     "unit": "h",
+     "y": 0.12,
+     "ats": [
+      "Argentina",
+      "Chile",
+      "Philippines",
+      "Brazil",
+      "South"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "The world average is 6 hours 38 minutes. So South Africans spend about 3 extra hours online, every day.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "clock",
+     "size": 220,
+     "y": 0.0,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "big",
+     "s": "+3 hours",
+     "unit": "vs. world average",
+     "y": 0.5,
+     "at": "3"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "The Philippines held the crown for years. Now South Africa wears it.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "ph",
+      "za"
+     ],
+     "w": 200,
+     "y": 0.2
+    },
+    {
+     "k": "text",
+     "s": "A new internet champion",
+     "size": 62,
+     "y": 0.8,
+     "at": "Now"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "za",
+      "br",
+      "ph",
+      "cl"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

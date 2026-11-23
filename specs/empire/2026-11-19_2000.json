@@ -1,0 +1,170 @@
+{
+ "topic": "Roman fuller (urine laundry)",
+ "title_card": "ANCIENT ROME · 1ST CENTURY",
+ "beats": [
+  {
+   "text": "Ancient Rome. Your new job: wash rich men's togas, by stomping on them in old urine.",
+   "keys": [
+    "Rome",
+    "togas",
+    "urine"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Fullonica in Regio VI Ins 14 Pompeii by Geremia Discanno 1882.jpg",
+    "focus": [
+     0.5,
+     0.55
+    ],
+    "zoom": [
+     1.05,
+     1.2
+    ]
+   }
+  },
+  {
+   "text": "You're a fuller. Every morning, you collect pots of urine from street corners.",
+   "keys": [
+    "fuller",
+    "urine"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "URINE POTS",
+    "icons": [
+     "bucket",
+     "droplet"
+    ],
+    "bg": "#7a5a22",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Why urine? It's full of ammonia, which breaks down grease and dirt.",
+   "keys": [
+    "ammonia"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Pompeii - Fullonica of Veranius Hypsaeus 2 - MAN.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "You stand in a stone tub for hours, treading the cloth like grapes.",
+   "keys": [
+    "hours"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Fullonica of Stephanus (Pompeii) (48443555206).jpg",
+    "focus": [
+     0.5,
+     0.6
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "The emperor Vespasian even taxed the urine trade.",
+   "keys": [
+    "Vespasian",
+    "taxed"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Bust of the Emperor Vespasian (Titus Flavius Vespasianus, 9–79) MET DP157992.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "When his son complained, he held up a coin and said: money doesn't smell.",
+   "keys": [
+    "coin",
+    "money",
+    "smell"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "happy",
+    "label": "PECUNIA NON OLET",
+    "icons": [
+     "coin",
+     "coins"
+    ],
+    "bg": "#2f6b5a",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Then the fumes. White wool is bleached over burning sulfur, and you breathe it all day.",
+   "keys": [
+    "sulfur"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "commons:Fullonica in Regio VI ins 14 Pompeii by Geremia Discanno (2) pub 1882.jpg",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.14
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "And if you ruin a client's toga, you pay for it.",
+   "keys": [
+    "ruin",
+    "pay"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "RUINED TOGA",
+    "icons": [
+     "scale",
+     "coin"
+    ],
+    "bg": "#7a2e2e",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

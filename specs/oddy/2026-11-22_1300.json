@@ -1,0 +1,166 @@
+{
+ "topic": "Papua New Guinea: 840 living languages (SIL/Ethnologue 2024) — remake of 'Why 7% of the World's Languages Are in One Country'",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "One country speaks over 800 languages. More than anywhere else on Earth. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "800+ languages?",
+     "size": 72,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "message-language",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#CFE3E0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · PAPUA NEW GUINEA",
+   "text": "It's Papua New Guinea. Linguists count 840 living languages there.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "pg",
+     "name": "Papua New Guinea",
+     "y": 0.15,
+     "w": 320
+    },
+    {
+     "k": "big",
+     "s": "840",
+     "unit": "living languages",
+     "y": 0.8,
+     "at": "840"
+    }
+   ]
+  },
+  {
+   "tag": "02 · ONE COUNTRY",
+   "text": "That's more than one in ten of all languages on Earth.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "world",
+     "size": 240,
+     "y": 0.1,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "big",
+     "s": "1 in 10+",
+     "unit": "of all languages",
+     "y": 0.8,
+     "at": "ten"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "China has about 306. India, 453. Nigeria, 530. Indonesia, 710. And Papua New Guinea, 840.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "cn",
+       "China",
+       306
+      ],
+      [
+       "in",
+       "India",
+       453
+      ],
+      [
+       "ng",
+       "Nigeria",
+       530
+      ],
+      [
+       "id",
+       "Indonesia",
+       710
+      ],
+      [
+       "pg",
+       "PNG",
+       840
+      ]
+     ],
+     "fmt": "{:.0f}",
+     "unit": "",
+     "y": 0.12,
+     "ats": [
+      "China",
+      "India",
+      "Nigeria",
+      "Indonesia",
+      "Papua"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · WHY",
+   "text": "Mountains and jungle kept villages apart for thousands of years.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "mountain",
+     "size": 260,
+     "y": 0.2,
+     "accent": "#DDE8C8"
+    },
+    {
+     "k": "text",
+     "s": "Mountains + jungle",
+     "size": 64,
+     "y": 0.85,
+     "at": "jungle"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "pg",
+      "id",
+      "ng",
+      "in"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

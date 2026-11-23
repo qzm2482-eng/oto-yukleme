@@ -1,0 +1,166 @@
+{
+ "topic": "Pasta per person: Tunisia #2 after Italy (Euronews 2023, EU pasta makers' union)",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "Italy eats the most pasta on Earth. But number two isn't in Europe. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "Pasta No. 2?",
+     "size": 72,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "bowl",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#F2D9A0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · TUNISIA",
+   "text": "It's Tunisia, in North Africa. About 17 kilos of pasta per person, every year.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "tn",
+     "name": "Tunisia",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "17 kg",
+     "unit": "per person / year",
+     "y": 0.8,
+     "at": "17"
+    }
+   ]
+  },
+  {
+   "tag": "02 · PER WEEK",
+   "text": "That's about a third of a kilo, every week, for every person.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "calendar",
+     "size": 240,
+     "y": 0.1,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "big",
+     "s": "330 g",
+     "unit": "every week",
+     "y": 0.8,
+     "at": "third"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "Germany eats about 8 kilos. France, 9. Venezuela, 15. Tunisia, 17. And Italy, 23 and a half.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "de",
+       "Germany",
+       7.9
+      ],
+      [
+       "fr",
+       "France",
+       9.1
+      ],
+      [
+       "ve",
+       "Venezuela",
+       15
+      ],
+      [
+       "tn",
+       "Tunisia",
+       17
+      ],
+      [
+       "it",
+       "Italy",
+       23.5
+      ]
+     ],
+     "fmt": "{:.1f}",
+     "unit": " kg",
+     "y": 0.12,
+     "ats": [
+      "Germany",
+      "France",
+      "Venezuela",
+      "Tunisia",
+      "Italy"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · WHY",
+   "text": "Tunisia grows durum wheat, and spicy pasta dishes are everyday food there.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "flame",
+     "size": 260,
+     "y": 0.2,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "text",
+     "s": "Durum wheat + chili",
+     "size": 64,
+     "y": 0.85,
+     "at": "wheat"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "tn",
+      "it",
+      "ve",
+      "fr"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "topic": "Australia: world's biggest wild camel herd",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "The biggest herd of wild camels on Earth isn't in Arabia, and it isn't in the Sahara. Can you guess which country?",
+   "items": [
+    {
+     "k": "text",
+     "s": "Most wild camels on Earth?",
+     "size": 66,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "cactus",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#DDE8C8"
+    }
+   ]
+  },
+  {
+   "tag": "01 · AUSTRALIA",
+   "text": "It's Australia. In 2008, scientists counted about one million wild camels roaming the outback.",
+   "items": [
+    {
+     "k": "flag",
+     "cc": "au",
+     "name": "Australia",
+     "y": 0.15,
+     "w": 340
+    },
+    {
+     "k": "big",
+     "s": "1 million",
+     "unit": "wild camels (2008)",
+     "y": 0.8,
+     "at": "million"
+    }
+   ]
+  },
+  {
+   "tag": "02 · HOW?",
+   "text": "In the 1800s, camels were shipped in to carry goods across the desert. When trucks arrived, many were simply set free.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "sun",
+     "size": 220,
+     "y": 0.05,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "text",
+     "s": "1800s: desert transport",
+     "size": 60,
+     "y": 0.6,
+     "color": "teal",
+     "at": "1800s"
+    },
+    {
+     "k": "text",
+     "s": "Trucks came: camels freed",
+     "size": 60,
+     "y": 0.9,
+     "color": "terra",
+     "at": "trucks"
+    }
+   ]
+  },
+  {
+   "tag": "03 · RANKING",
+   "text": "Fewer than 1,000 wild Bactrian camels are left. Australia had 300,000 after a cull, and a million at its peak. That's over a thousand times more.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "mn",
+       "Wild Bactrian",
+       950
+      ],
+      [
+       "au",
+       "Australia 2013",
+       300000
+      ],
+      [
+       "au",
+       "Australia 2008",
+       1000000
+      ]
+     ],
+     "fmt": "{:,.0f}",
+     "unit": "",
+     "y": 0.12,
+     "ats": [
+      "Bactrian",
+      "300,000",
+      "million"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "And here's the twist: Australia has even sold camels to Saudi Arabia.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "au",
+      "sa"
+     ],
+     "w": 200,
+     "y": 0.15
+    },
+    {
+     "k": "text",
+     "s": "Camels to Saudi Arabia!",
+     "size": 66,
+     "y": 0.8,
+     "color": "terra",
+     "at": "Saudi"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "Today, estimates range from 300,000 to over a million. Nobody knows the exact number.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "question-mark",
+     "size": 240,
+     "y": 0.15,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "text",
+     "s": "300,000 to 1 million+",
+     "size": 64,
+     "y": 0.85,
+     "at": "300,000"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "au",
+      "sa",
+      "eg",
+      "mn"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}

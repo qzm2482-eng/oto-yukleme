@@ -1,0 +1,159 @@
+{
+ "topic": "Crossing Medusa's island (Perseus myth)",
+ "title_card": "MEDUSA'S ISLAND",
+ "beats": [
+  {
+   "text": "Ancient Greece. You must cut off Medusa's head, without ever looking at her.",
+   "keys": [
+    "Medusa's",
+    "head",
+    "looking"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "aic:9c664944-4553-a18a-b47b-dcab6684fb72",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.1,
+     1.25
+    ],
+    "reveal": "iris",
+    "focus2": [
+     0.5,
+     0.45
+    ]
+   }
+  },
+  {
+   "text": "One look into her eyes, and you turn to stone.",
+   "keys": [
+    "eyes",
+    "stone"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "DON'T LOOK",
+    "icons": [
+     "eye-off",
+     "skull"
+    ],
+    "bg": "#2b3a6b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "First, find the Graeae. Three sisters sharing one eye. Steal it, and they talk.",
+   "keys": [
+    "Graeae",
+    "one",
+    "eye"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "determined",
+    "label": "THE GRAEAE",
+    "icons": [
+     "eye",
+     "users"
+    ],
+    "bg": "#4a3a6b",
+    "reveal": "wipe"
+   }
+  },
+  {
+   "text": "Nymphs give you winged sandals, a magic bag and a cap of invisibility. Hermes adds a sickle.",
+   "keys": [
+    "sandals",
+    "invisibility",
+    "sickle"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "aic:668ae4ff-7fac-5f49-184b-d3f6c658c7aa",
+    "focus": [
+     0.5,
+     0.5
+    ],
+    "zoom": [
+     1.0,
+     1.12
+    ],
+    "reveal": "frame"
+   }
+  },
+  {
+   "text": "Danger one: her two sisters. Gorgons too, and they can't be killed.",
+   "keys": [
+    "sisters",
+    "Gorgons",
+    "killed"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "shock",
+    "label": "2 IMMORTAL SISTERS",
+    "icons": [
+     "skull",
+     "wind"
+    ],
+    "bg": "#6b2b2b",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Danger two: the statues. Men who came before you, frozen in stone.",
+   "keys": [
+    "statues",
+    "frozen"
+   ],
+   "scene": {
+    "type": "cartoon",
+    "expr": "scared",
+    "label": "STATUES",
+    "icons": [
+     "user",
+     "skull"
+    ],
+    "bg": "#3a3a4a",
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "So you watch her only in a bronze shield's reflection, and strike. From her neck springs Pegasus.",
+   "keys": [
+    "shield's",
+    "reflection",
+    "Pegasus"
+   ],
+   "scene": {
+    "type": "img",
+    "src": "aic:894ff128-fe4b-472a-78e8-f79fa17c1a81",
+    "focus": [
+     0.5,
+     0.4
+    ],
+    "zoom": [
+     1.05,
+     1.2
+    ],
+    "reveal": "iris"
+   }
+  },
+  {
+   "text": "Would YOU survive? Type SURVIVE or DEAD.",
+   "keys": [
+    "YOU",
+    "SURVIVE",
+    "DEAD"
+   ],
+   "scene": {
+    "type": "end",
+    "reveal": "iris"
+   }
+  }
+ ]
+}

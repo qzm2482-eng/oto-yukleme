@@ -1,0 +1,204 @@
+{
+ "topic": "Countries with no airport",
+ "slides": [
+  {
+   "tag": "GUESS THE COUNTRY",
+   "text": "There are five countries with no airport of their own. Not one runway. Can you guess which ones?",
+   "items": [
+    {
+     "k": "text",
+     "s": "5 countries, zero airports?",
+     "size": 70,
+     "y": 0.0
+    },
+    {
+     "k": "question",
+     "y": 0.5
+    },
+    {
+     "k": "icon",
+     "name": "plane-off",
+     "size": 170,
+     "x": 0.72,
+     "y": 0.95,
+     "accent": "#F2B8A0"
+    }
+   ]
+  },
+  {
+   "tag": "01 · THE FIVE",
+   "text": "Vatican City, Monaco, San Marino, Liechtenstein and Andorra.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "va",
+      "mc",
+      "sm"
+     ],
+     "w": 150,
+     "y": 0.15
+    },
+    {
+     "k": "flags",
+     "ccs": [
+      "li",
+      "ad"
+     ],
+     "w": 150,
+     "y": 0.55,
+     "at": "Liechtenstein"
+    },
+    {
+     "k": "icon",
+     "name": "plane-off",
+     "size": 170,
+     "y": 0.95,
+     "accent": "#F2B8A0"
+    }
+   ]
+  },
+  {
+   "tag": "02 · WHY",
+   "text": "They're tiny. Vatican City is just 0.44 square kilometers, smaller than many city parks.",
+   "items": [
+    {
+     "k": "big",
+     "s": "0.44 sq km",
+     "unit": "Vatican City",
+     "y": 0.12,
+     "at": "0.44"
+    },
+    {
+     "k": "icon",
+     "name": "tree",
+     "size": 300,
+     "y": 0.75,
+     "accent": "#D9E6C8"
+    }
+   ]
+  },
+  {
+   "tag": "03 · SIZE IN SQ KM",
+   "text": "Vatican, 0.44 square kilometers. Monaco, 2. San Marino, 61. Liechtenstein, 160. Andorra, 468.",
+   "items": [
+    {
+     "k": "bars",
+     "rows": [
+      [
+       "va",
+       "Vatican",
+       0.44,
+       "0.44"
+      ],
+      [
+       "mc",
+       "Monaco",
+       2.0,
+       "2"
+      ],
+      [
+       "sm",
+       "San Marino",
+       61,
+       "61"
+      ],
+      [
+       "li",
+       "Liechtenstein",
+       160,
+       "160"
+      ],
+      [
+       "ad",
+       "Andorra",
+       468,
+       "468"
+      ]
+     ],
+     "fmt": "{:,.0f}",
+     "unit": "",
+     "y": 0.12,
+     "ats": [
+      "Vatican",
+      "Monaco",
+      "Marino",
+      "Liechtenstein",
+      "Andorra"
+     ]
+    }
+   ]
+  },
+  {
+   "tag": "04 · MIND-BLOWING",
+   "text": "Monaco has a heliport, so you can still fly in, by helicopter.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "plane",
+     "size": 200,
+     "y": 0.0,
+     "accent": "#CFE3E0"
+    },
+    {
+     "k": "big",
+     "s": "Heliport",
+     "unit": "Monaco's only way in by air",
+     "y": 0.45,
+     "at": "heliport"
+    }
+   ]
+  },
+  {
+   "tag": "05 · TAKEAWAY",
+   "text": "To visit the others, you land in a neighbor country, then drive or take a train.",
+   "items": [
+    {
+     "k": "icon",
+     "name": "car",
+     "size": 300,
+     "y": 0.25,
+     "accent": "#F2D9A0"
+    },
+    {
+     "k": "text",
+     "s": "Land next door, then drive",
+     "size": 62,
+     "y": 0.85,
+     "at": "drive"
+    }
+   ]
+  },
+  {
+   "tag": "YOUR TURN",
+   "text": "Which country should we check next? Drop your flag below.",
+   "items": [
+    {
+     "k": "flags",
+     "ccs": [
+      "lu",
+      "mt",
+      "sg",
+      "is"
+     ],
+     "w": 130,
+     "y": 0.1
+    },
+    {
+     "k": "text",
+     "s": "Which country should we check next?",
+     "size": 66,
+     "y": 0.5
+    },
+    {
+     "k": "text",
+     "s": "Drop your flag below!",
+     "size": 70,
+     "y": 0.85,
+     "color": "terra",
+     "at": "Drop"
+    }
+   ]
+  }
+ ]
+}
