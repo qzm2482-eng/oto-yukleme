@@ -86,3 +86,5 @@ KONU #27 — STS-49 Intelsat VI elle yakalama — YAPILDI 2026-11-23 — "Three 
 KONU #28 — Faith 7, Cooper elle yeniden giriş — YAPILDI 2026-11-23 — "How Gordon Cooper Reentered by Hand  (35 karakter)" — Uzay Ajanı PASS (1 tur) — not: 44,44 sn, 124 kelime, 12 kare; kuyruk fikrindeki kol saati/tüm aletler bozuldu iddiaları kaynaksız, kullanılmadı
 
 KONU #29 — STS-51A iki uydunun geri alınması — YAPILDI 2026-11-23 — "Two Astronauts Brought Lost Satellites Home  (43 karakter)" — Uzay Ajanı PASS (2 tur) — not: 45,57 sn, 122 kelime, 12 kare; PAM-D/sigorta/maliyet iddiaları konmadı
+
+KONU #30 — Gemini 9A Angry Alligator — YAPILDI 2026-11-24 — "The Docking Target That Looked Like an Angry Alligator (54 karakter)" — Uzay Ajanı PASS (1 tur) — not: 42,39 sn, 124 kelime, 10 kare
