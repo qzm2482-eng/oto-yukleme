@@ -31,3 +31,5 @@ KONU #14 — Apollo 12 yıldırım ve SCE to AUX çağrısı — YAPILDI 2026-11
 KONU #15 — Opportunity gezgini: 90 gün, 15 yıl — YAPILDI 2026-11-23 — "How a 90-Day Mars Rover Outlasted Its Plan by 60 Times  (54 karakter)" — Uzay Ajanı PASS (1 tur) — not: 50,49 sn, 111 kelime
 
 KONU #16 — Voyager Altın Plak — YAPILDI 2026-11-23 — "What NASA Put on a Gold Record for Aliens in 1977  (49 karakter)" — Uzay Ajanı PASS (2 tur) — not: 51,76 sn, 122 kelime, 11 kare
+
+KONU #17 — Ay dönüşü karantinası (Apollo 11) — YAPILDI 2026-11-23 — "The Trailer That Quarantined the First Men on the Moon  (54 karakter)" — Uzay Ajanı PASS (2 tur) — not: 45,81 sn, 12 kare; "21 days" plan olarak, "awaited" ifadesiyle
