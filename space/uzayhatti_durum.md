@@ -84,3 +84,5 @@ KONU #26 — Gemini 6A fırlatma iptali — YAPILDI 2026-11-23 — "The Astronau
 KONU #27 — STS-49 Intelsat VI elle yakalama — YAPILDI 2026-11-23 — "Three Astronauts Caught a Satellite by Hand  (43 karakter)" — Uzay Ajanı PASS (2 tur) — not: 43,29 sn, 121 kelime, 11 kare; yakalama 3. EVA; Thuot telaffuzu TTS sınırında
 
 KONU #28 — Faith 7, Cooper elle yeniden giriş — YAPILDI 2026-11-23 — "How Gordon Cooper Reentered by Hand  (35 karakter)" — Uzay Ajanı PASS (1 tur) — not: 44,44 sn, 124 kelime, 12 kare; kuyruk fikrindeki kol saati/tüm aletler bozuldu iddiaları kaynaksız, kullanılmadı
+
+KONU #29 — STS-51A iki uydunun geri alınması — YAPILDI 2026-11-23 — "Two Astronauts Brought Lost Satellites Home  (43 karakter)" — Uzay Ajanı PASS (2 tur) — not: 45,57 sn, 122 kelime, 12 kare; PAM-D/sigorta/maliyet iddiaları konmadı
