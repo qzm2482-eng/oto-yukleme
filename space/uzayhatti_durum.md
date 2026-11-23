@@ -43,3 +43,5 @@ KONU #20 — Pioneer plaketi — YAPILDI 2026-11-23 — "What Pioneer 10's Plaqu
 KONU #21 — Surveyor 3 parçaları (Apollo 12) — YAPILDI 2026-11-23 — "Apollo 12 Took Parts From a Spacecraft Already on the Moon  (58 karakter)" — Uzay Ajanı PASS (2 tur) — not: 43,22 sn, 119 kelime, 12 kare; tarihler yalnız ay/yıl
 
 KONU #22 — Mars Climate Orbiter birim karışıklığı — YAPILDI 2026-11-23 — "The Unit Mix-Up That Doomed a Mars Orbiter  (42 karakter)" — Uzay Ajanı PASS (1 tur) — not: 50,23 sn, 123 kelime, 13 kare; 1999 olayının foto yok, kareler 1998 KSC arşiv etiketli
+
+KONU #23 — Mir yangını — YAPILDI 2026-11-23 — "A Fire on Mir Blocked the Way to a Soyuz  (40 karakter)" — Uzay Ajanı PASS (2 tur) — not: 45,35 sn, 121 kelime, 11 kare; yangının fotoğrafı yok, kareler Mir arşiv etiketli; Korzun telaffuzu TTS sınırında
