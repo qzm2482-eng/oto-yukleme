@@ -95,3 +95,5 @@ KONU #31 — Mars Pathfinder hava yastikli inis — YAPILDI 2026-11-24 — "NASA
 ## KUYRUK 28 KASIM 2026 (bilim, teknoloji, uzay — KONU #36–#55, ayrıntı: space/konu_kuyrugu_20.md)
 Toplu üretim: tüm PASS zipler saklanır, sonunda tek dosya teslim edilir.
 Not: #32–#35 (23 Kasım kuyruğu) üretilmedi; kullanıcı yeni kuyruğu başlattı.
+
+KONU #36 — Did You See What NASA Found on the Moon? — YAPILDI (28 Kas 2026, PASS, 3 tur) — zip: space/toplu/OrbitArchives_36_mcgetchin.zip
