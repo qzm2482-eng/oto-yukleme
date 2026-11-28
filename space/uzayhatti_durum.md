@@ -90,3 +90,8 @@ KONU #29 — STS-51A iki uydunun geri alınması — YAPILDI 2026-11-23 — "Two
 KONU #30 — Gemini 9A Angry Alligator — YAPILDI 2026-11-24 — "The Docking Target That Looked Like an Angry Alligator (54 karakter)" — Uzay Ajanı PASS (1 tur) — not: 42,39 sn, 124 kelime, 10 kare
 
 KONU #31 — Mars Pathfinder hava yastikli inis — YAPILDI 2026-11-24 — "NASA Landed on Mars by Bouncing (31 karakter)" — Uzay Ajanı PASS (2 tur) — not: 42,37 sn, 120 kelime, 10 kare; giris/parasut/roket kareleri bulunamadigi icin anlatim inis sonrasi karelere gore kuruldu
+
+
+## KUYRUK 28 KASIM 2026 (bilim, teknoloji, uzay — KONU #36–#55, ayrıntı: space/konu_kuyrugu_20.md)
+Toplu üretim: tüm PASS zipler saklanır, sonunda tek dosya teslim edilir.
+Not: #32–#35 (23 Kasım kuyruğu) üretilmedi; kullanıcı yeni kuyruğu başlattı.
